@@ -1,0 +1,286 @@
+[
+  {
+    "pergunta": "O sistema garante que somente usuários autorizados consigam acessá-lo por meio de um processo seguro de autenticação?",
+    "resposta": "Sim, o sistema possui autenticação com controle de acesso seguro, SSO."
+  },
+  {
+    "pergunta": "O sistema permite autenticação via LDAP, SAML, OIDC ou outro protocolo seguro?",
+    "resposta": "Autenticação via SAML"
+  },
+  {
+    "pergunta": "Se não houver suporte ao AD, o sistema possui mecanismos robustos de autenticação (banco de usuários próprio com MFA obrigatório)?",
+    "resposta": "Possui suporte ao AD"
+  },
+  {
+    "pergunta": "A autorização de usuários é baseada em grupos do AD ou perfis internos do sistema?",
+    "resposta": "Perfis internos do sistema."
+  },
+  {
+    "pergunta": "O sistema permite atribuir e remover permissões de forma centralizada?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O Sistema Suporta MFA (Ex.: Google Authenticator, Microsoft Authenticator, Yubikey)?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O MFA é exigido para acessos administrativos ou de alto privilégio?",
+    "resposta": "Será exigido a todos os usuários"
+  },
+  {
+    "pergunta": "O sistema impede múltiplas sessões simultâneas com a mesma credencial?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "É possível configurar tempo máximo de inatividade antes do logout automático?",
+    "resposta": "Não é possível"
+  },
+  {
+    "pergunta": "O número de tentativas inválidas de login é configurável para bloquear o usuário após um limite definido?",
+    "resposta": "3 tentativas, não configurável"
+  },
+  {
+    "pergunta": "O sistema permite a recuperação de conta com fluxo seguro de redefinição de senha?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A redefinição de senha exige autenticação secundária (ex.: e-mail verificado, MFA)?",
+    "resposta": "Sim 2.2 Gestão de Senhas"
+  },
+  {
+    "pergunta": "O sistema permite envio automático de senhas por canal seguro (e-mail criptografado, SMS seguro)?",
+    "resposta": "Permite via e-mail"
+  },
+  {
+    "pergunta": "As senhas iniciais são aleatórias e temporárias, exigindo troca no primeiro acesso?",
+    "resposta": "Sim O sistema suporta configuração personalizada de senhas, incluindo: Mínimo de 8 caracteres; Uso obrigatório de letras maiúsculas, minúsculas, números e caracteres especiais;"
+  },
+  {
+    "pergunta": "Expiração periódica de senhas (parametrizável)?",
+    "resposta": "Permite personalizar a política de senhas, e expiração periódica."
+  },
+  {
+    "pergunta": "O sistema obriga a troca de senha no primeiro acesso?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O sistema notifica o usuário sempre que sua senha for alterada?",
+    "resposta": "Sim 2.3 Controle de Permissões e Perfis"
+  },
+  {
+    "pergunta": "O sistema permite criação e gerenciamento de perfis de acesso com permissões predefinidas?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Perfis são baseados em funções de negócio, evitando atribuição direta de permissões a usuários individuais?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O sistema impede que um único usuário tenha acessos conflitantes (ex.: criar e aprovar transações financeiras)?",
+    "resposta": "É possível configurar as permissões dos usuários"
+  },
+  {
+    "pergunta": "O sistema oferece um painel ou relatório que permite visualizar e auditar acessos atribuídos a cada usuário?",
+    "resposta": "Sim 3. Requisitos de Segurança e Auditoria 3.1 Logs e Rastreabilidade O sistema armazena logs detalhados de: Tentativas de login (sucesso e falha); Alterações de senha (usuário, data, IP de origem); Criação, remoção e modificação de usuários e permissões;"
+  },
+  {
+    "pergunta": "Alterações administrativas (configurações críticas do sistema)?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O sistema permite exportação dos logs para ferramentas de auditoria e SIEMs?",
+    "resposta": "Não é possível exportar"
+  },
+  {
+    "pergunta": "Logs são retidos por no mínimo 6 meses e estão acessíveis para consulta?",
+    "resposta": "Sim 4. Requisitos de Automação e Provisionamento"
+  },
+  {
+    "pergunta": "O sistema permite importação e sincronização de usuários com o AD?",
+    "resposta": "Via AD apenas autenticação."
+  },
+  {
+    "pergunta": "A criação e remoção de usuários é automatizada conforme regras de governança?",
+    "resposta": "É possível automatizar através de API O sistema permite extração de relatório de dados de usuários, incluindo:"
+  },
+  {
+    "pergunta": "Login, nome, status, perfil, data de criação, último login, última modificação?",
+    "resposta": "Sim, exceto informações de último login"
+  },
+  {
+    "pergunta": "O sistema oferece APIs que permitem integração com ferramentas de gestão de identidades e acessos?",
+    "resposta": "Sim. Documentação disponível através do link: https://lemontechinfo.atlassian.net/wiki/spaces/DW/overview 5. Conformidade e Manutenção O sistema segue padrões reconhecidos, como: ISO 27001 (Gestão de Segurança da Informação); NIST SP 800-63 (Autenticação Digital);"
+  },
+  {
+    "pergunta": "LGPD / GDPR (Proteção de Dados Pessoais)?",
+    "resposta": "Possuímos certificação PCI-DSS"
+  },
+  {
+    "pergunta": "O fornecedor garante atualizações regulares e suporte técnico contínuo?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Vulnerabilidades de segurança são corrigidas com SLAs claros?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O sistema permite auditorias para verificar conformidade com os requisitos estabelecidos?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Logs e acessos são revisados regularmente para identificação de anomalias?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui cobertura de seguro para incidentes de segurança da informação/incidentes de privacidade? A cobertura é suficiente?",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "A parte contratada experimentou violações de segurança da informação nos últimos dois (2) anos? Se sim, obtenha mais informações sobre as circunstâncias da violação e como a parte contratada remediou a vulnerabilidade que levou à violação?",
+    "resposta": "Não, não houve incidentes de segurança nos últimos dois anos."
+  },
+  {
+    "pergunta": "A parte contratada está sujeita a quaisquer ações, investigações ou litígios relacionados à privacidade ou segurança da informação? Se sim, forneça cópias de documentos relevantes?",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "A parte contratada possui uma política de disciplina e a aplica em seu pessoal por violações de suas políticas e procedimentos relacionados à privacidade e segurança da informação? Se sim, como é realizado?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada exige que funcionários e contratados assinem contratos de confidencialidade e segurança de dados? Se sim, forneça uma cópia para revisão.",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada fornece treinamento apropriado ao pessoal relevante sobre as políticas de privacidade e segurança aplicáveis ​​ao tratamento da parte contratada por contratação de informações da parte? Forneça uma cópia de qualquer material de treinamento.",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada instrui seus funcionários e contratados a limitar o armazenamento de informações da parte contratante em dispositivos de extremidade ao mínimo necessário para fins comerciais?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada identifica e avalia regularmente os riscos e o nível de conformidade relacionados à privacidade dos dados pessoais e à segurança da informação em suas operações? Se sim, compartilhe as evidências.",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada tem uma política para limitar o acesso às informações da parte contratante para funcionários e contratados necessários para saber?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A triagem de terceiros conduz a triagem de funcionários e contratados que têm acesso a informações sobre contratação?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui políticas e controles para a revisão regular das permissões de acesso à contratação de informações da parte para garantir que apenas funcionários e contratados necessários tenham acesso, bem como um procedimento para impedir prontamente que os funcionários e contratados demitidos acessem informações sobre contratação? Se sim, forneça uma cópia.",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada transferirá a natureza pessoal e outra da informação para um país diferente daquele onde o serviço é fornecido? Em caso afirmativo, qual é o objetivo da transferência e qual mecanismo de transferência de dados será usado?",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "A parte contratada testar e monitorar regularmente os principais controles administrativos, técnicos e físicos, sistemas e procedimentos para garantir confidencialidade, disponibilidade e integridade em seu ambiente digital?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada adere a quaisquer padrões de segurança específicos da tecnologia ou auditorias de segurança? Especificar quais padrões? Forneça cópias de certificações e/ou relatórios de auditoria.",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada lida com dados pessoais sob a responsabilidade da parte contratante em nome da execução dos serviços contratados?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada permitirá que outros indivíduos e entidades acessem os dados pessoais da parte contratante (por exemplo, seus próprios provedores de serviços)? Se sim, detalhe os propósitos para os quais esse acesso será fornecido?",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "A parte contratada transmite dados pessoais da parte contratante para terceiros adicionais e como? A parte contratada garante que as salvaguardas de segurança da informação apropriadas estejam em vigor para esse fim?",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "A parte contratada tem acesso a categorias sensíveis de dados pessoais (como religião, casta, etnia, comportamentos etc.) e quais são esses elementos?",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "A parte contratada mantém uma lista de atributos de dados pessoais que ela armazena para a parte contratante?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada mantém registros com os registros de acesso e outras atividades de processamento em relação aos dados pessoais da parte contratante?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui políticas e controles em vigor para (1) limitar o acesso remoto a seus sistemas que contêm informações contratantes da parte, (2) protege os recursos tecnológicos utilizados, incluindo pontos de extremidade, rede e outras infraestruturas em nuvem e no local (3) mantêm os registros de atividades de rede para monitorar a rede para obter acesso não autorizado a informações contra a parte contratada?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui uma política e controles em vigor sobre o uso aceitável de recursos digitais? Se sim, forneça uma cópia.",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Onde os dados da parte contratante são armazenados pela parte contratada (em suas próprias instalações, na nuvem pública, na infraestrutura de partes contratadas?) Que tipo de tecnologia é usada?",
+    "resposta": "Sim, fornecedor de nuvem (AWS)"
+  },
+  {
+    "pergunta": "A parte contratada possui políticas/procedimentos de backup e controles implementados, incluindo testes de restauração, com relação aos dados da parte contratante? Forneça uma cópia para revisão.)",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada armazena e descarta qualquer informação impressa? Se sim, especifique o local e os meios para descartar.",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "A parte contratada possui uma política de criptografia e aplica criptografia nos dados da parte contratante? (Forneça uma cópia para revisão.)",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada implanta firewalls de rede e aplicativo, bem como plataformas IPS para proteger seus sistemas que podem conter informações contratantes da parte?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Os terceiros inventorizam todos os computadores, laptops, unidades de flash e outros dispositivos de armazenamento móvel que podem ser usados ​​para acessar ou armazenar informações sobre contratação?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada tem uma política sobre gerenciamento de mudanças e controles de alterações em vigor para os sistemas de TI?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada exige o uso de IDs de usuários individuais, senhas fortes e autenticação de vários fatores para acessar os dados da parte contratante e outros recursos em seu ambiente digital?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui políticas e procedimentos automáticos para bloquear as telas em pontos de extremidade não utilizados e dispositivos móveis?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada usa antivírus e outras ferramentas para detectar e neutralizar malwares, explorações e outras formas de ferramentas de ataque cibernético em pontos de extremidade e servidores?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui políticas e controles para aplicar patches de segurança e atualizações de forma contínua e oportuna?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui políticas e controles para controlar o nível de vulnerabilidades em sua infraestrutura de TI e e nos pontos de extremidade?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui políticas e controles para controlar o nível de vulnerabilidades em suas aplicações?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada da DE realiza testes regulares de caneta em seu ambiente de infraestrutura e aplicativos de TI?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui um NTP para sincronização do relógio?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui uma prevenção de perda de dados (DLP)?",
+    "resposta": "Não"
+  }
+]
