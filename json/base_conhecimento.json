@@ -1,5 +1,157 @@
 [
   {
+    "pergunta": "Descrição de SaaS",
+    "resposta": "Ferramenta focada em viagens corporativas para reservar produtos, despesas e políticas de viagem a mecedores"
+  },
+  {
+    "pergunta": "As conexões entre o cliente/servidor são seguras? Se sim, qual tecnologia e versão?",
+    "resposta": "TLSv1.2"
+  },
+  {
+    "pergunta": "Os dados do cliente armazenados na solução do fornecedor são criptografados em repouso usando chaves de criptografia avançadas de AES ou equivalentes?",
+    "resposta": "AES-256"
+  },
+  {
+    "pergunta": "Tecnologia de autenticação usada para acessar o serviço?",
+    "resposta": "SAML 2.0"
+  },
+  {
+    "pergunta": "A conta do cliente é usada para autenticação?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A tecnologia de tecnologia/aplicativo/solução suporta uma política de bloqueio de senha inválida?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O Tecnologia/Aplicativo/Solução suporta tempo limite da sessão? Se sim, quanto tempo?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Governança de acesso - O fornecedor possui controles para detectar e impedir alterações não autorizadas nas funções de administrador?",
+    "resposta": "Sim, temos perfis de acesso separados"
+  },
+  {
+    "pergunta": "Governança de acesso - O provedor deve fornecer os meios para revisar o acesso privilegiado e o acesso do usuário.",
+    "resposta": "Existe a expiração da Política 1.6 Passwaord, que pode ser programada para bloquear senhas e solicitar a renovação de acesso"
+  },
+  {
+    "pergunta": "Deve ser capaz de desativar contas não utilizadas por meio de análises de acesso regular:",
+    "resposta": "nan"
+  },
+  {
+    "pergunta": "O fornecedor captura e audita os principais registros de sistemas e eventos de segurança em sua própria infraestrutura.",
+    "resposta": "Sim, há um registro de várias atividades no sistema, que podem ser acessadas para o administrador e compartilhadas com o cliente, se necessário."
+  },
+  {
+    "pergunta": "O fornecedor fornece registros importantes para eventos de aplicação, autorização e segurança para os SoC do cliente (Splunk Systems). Os seguintes são recomendados:",
+    "resposta": "Sim, temos um log e monitoramos ações, mas a maneira de solicitar informações é através do canal de suporte."
+  },
+  {
+    "pergunta": "Outros eventos específicos do aplicativo, conforme necessário. Como o fornecedor é capaz de enviar esses logs? (API, lote… etc.) Os dados podem ser retransmitidos em tempo real ou com frequência arquivo em lote (10 minutos)?",
+    "resposta": "nan"
+  },
+  {
+    "pergunta": "Como as chaves de criptografia são protegidas?",
+    "resposta": "Sim, as chaves são criptografadas antes de serem salvas no banco. E eles podem ser compartilhados com o cliente em caso de auditoria"
+  },
+  {
+    "pergunta": "Análise de Comportamento - Implementação da análise de comportamento. O fornecedor compartilha descobertas com a igreja?",
+    "resposta": "Temos um monitoramento de pilha composto por várias camadas. Os IPS/IDS e os serviços de monitoramento de arquivos são implementados na pilha."
+  },
+  {
+    "pergunta": "Atestado de controle: o fornecedor deve fornecer documentação descrevendo seu programa de segurança interna e divulgar os resultados relevantes da auditoria do SSAE-16.",
+    "resposta": "PCI-DSS"
+  },
+  {
+    "pergunta": "Os atestados devem incluir cópias fornecidas por empresas de auditoria independentes e credenciadas, como KMPG, PWC, EY, Deloitte ...",
+    "resposta": "nan"
+  },
+  {
+    "pergunta": "Forneça documentação formal que aborda os seguintes assuntos:",
+    "resposta": "Políticas anexadas"
+  },
+  {
+    "pergunta": "Forneça informações (relatórios) sobre testes de penetração conduzidos por partes externas, de preferência nos últimos 12 meses. Os relatórios fornecem resultados de teste para revisão.",
+    "resposta": "Relatórios anexados"
+  },
+  {
+    "pergunta": "O fornecedor aplica regularmente atualizações de patches em servidores, bancos de dados, redes ... dentro de 30 a 60 dias após a liberação do fabricante.",
+    "resposta": "Sim, nossas atualizações acontecem 4 vezes por mês."
+  },
+  {
+    "pergunta": "Você tem um plano de resposta incidente ou de violação e uma equipe dedicada ao CSIRT?",
+    "resposta": "Sim, temos um procedimentos de resposta a incidentes (anexado)"
+  },
+  {
+    "pergunta": "Você tem um SOC (Centro de Operações de Segurança) que monitora alerta de eventos e eventos suspeitos em torno das principais transações?",
+    "resposta": "Sim, temos monitores dentro do processo que notificam o cliente de ações tomadas dentro da ferramenta."
+  },
+  {
+    "pergunta": "O fornecedor emprega linhas de base de configuração endurecida nos serviços de computação e banco de dados.",
+    "resposta": "Sim, todo o ambiente foi projetado de acordo com os padrões de segurança. Todos os componentes do sistema têm configurações de endurecimento."
+  },
+  {
+    "pergunta": "O fornecedor realiza varreduras regulares de vulnerabilidade da web para questões como XXs e SQLI e você remedia problemas de alta gravidade em tempo hábil?",
+    "resposta": "Sim, trimestralmente."
+  },
+  {
+    "pergunta": "O fornecedor minimiza os serviços de portas em seus ACLs de firewall de implementação, NACLs ou grupos de segurança de rede (NSG), WAF - A implementação do WAF (controles de firewall de aplicativos da Web) é usada por fornecedores de SaaS?",
+    "resposta": "Rede de ACL e WAF no lugar."
+  },
+  {
+    "pergunta": "Você conduz varreduras regulares de vulnerabilidade de aplicativos para detectar questões como serviços portuários não autorizados, patching etc., e você remedia problemas de alta gravidade em tempo hábil?",
+    "resposta": "Yes, quarterly"
+  },
+  {
+    "pergunta": "Política de Privacidade - O fornecedor divulgou sua política de privacidade corporativa que descreve os métodos para coleta, uso e processamento de PII e divulga os procedimentos de proteção de dados do cliente.",
+    "resposta": "Políticas de privacidade em vigor e publicadas."
+  },
+  {
+    "pergunta": "Você tem uma política de senha interna aplicada para os funcionários?",
+    "resposta": "Sim, usamos o SSO para controlar o acesso."
+  },
+  {
+    "pergunta": "Governança de acesso - O fornecedor possui controles para detectar e impedir alterações não autorizadas nas funções internas do administrador.",
+    "resposta": "Sim, as atualizações são permitidas apenas por pessoas e/ou processos autorizados como perfil de gerente ou acesso à API."
+  },
+  {
+    "pergunta": "Você verifica que o pessoal que trabalha em seu sistema está autorizado?",
+    "resposta": "Sim, o login só pode ser feito via SSO, você precisa ser registrado em nosso sistema e com o provedor de serviços."
+  },
+  {
+    "pergunta": "Os princípios de menor privilégio são práticas padrão na organização. Este método é implementado em sua organização e no acesso de informações?",
+    "resposta": "Todo o acesso ao sistema é baseado no menos privado. Políticas de controle de acesso anexadas"
+  },
+  {
+    "pergunta": "A autenticação de MFA ou dois fatores é usada para administradores de sistema ou outro pessoal de suporte aplicável.",
+    "resposta": "Sim, você pode usar o MFA ou o SSO para autenticação. Se você usar uma solução que forneça MFA, poderá usar os dois ao mesmo tempo."
+  },
+  {
+    "pergunta": "As contas de serviço do aplicativo não são usadas pelo pessoal administrativo. (As contas de serviço são um tipo especial de conta privilegiada não humana usada para executar aplicativos e executar serviços automatizados, instâncias de máquinas virtuais e outros processos. Contas de serviço podem ser contas locais ou de domínio privilegiadas e, em alguns casos, podem ter privilégios administrativos de domínio.)",
+    "resposta": "Não, os perfis de acesso e privilégios são definidos na ferramenta."
+  },
+  {
+    "pergunta": "Localização do desenvolvedor?",
+    "resposta": "Our developers are Brazilian."
+  },
+  {
+    "pergunta": "É de uma grande empresa, pequena e média empresa (SMB), grupo de voluntários ou um único desenvolvedor? (O risco pode subir à medida que os colaboradores caem ou o software de uma grande empresa pode ser mais seguro, pois eles têm mais recursos para isso):",
+    "resposta": "A empresa pertence a um grande grupo de empresas brasileiras."
+  },
+  {
+    "pergunta": "URL do site do fornecedor/empresa",
+    "resposta": "https://maringaturismo.com.br/"
+  },
+  {
+    "pergunta": "URL de Política de Segurança/Privacidade do fornecedor/empresa",
+    "resposta": "https://maringaturismo.com.br/lgpd/"
+  },
+  {
+    "pergunta": "Liste qualquer incidentes históricos de violação/segurança conhecidos para o fornecedor/empresa",
+    "resposta": "Carlos"
+  },
+  {
     "pergunta": "O sistema garante que somente usuários autorizados consigam acessá-lo por meio de um processo seguro de autenticação?",
     "resposta": "Sim, o sistema possui autenticação com controle de acesso seguro, SSO."
   },
