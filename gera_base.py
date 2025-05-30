@@ -1,6 +1,8 @@
 import os
 import json
 import pandas as pd
+import requests
+from bs4 import BeautifulSoup
 from PyPDF2 import PdfReader
 from docx import Document
 from langdetect import detect
@@ -10,6 +12,12 @@ from deep_translator import GoogleTranslator
 PASTA_ARQUIVOS = "arquivos"
 PASTA_SAIDA = "json"
 base_conhecimento = []
+
+# Lista de URLs a serem processadas
+URLS = [
+    "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
+    # Adicione outras URLs aqui, se quiser
+]
 
 # Função para traduzir texto se estiver em inglês
 def traduzir_para_pt(texto):
@@ -85,15 +93,48 @@ def processar_excel(caminho):
         if pergunta and resposta:
             adicionar_pergunta_resposta(pergunta, resposta)
 
+# Processa páginas da web (URLs)
+def processar_url(url):
+    try:
+        print(f"🌐 Processando URL: {url}")
+        resposta = requests.get(url)
+        resposta.raise_for_status()
+        soup = BeautifulSoup(resposta.text, "html.parser")
+
+        # Você pode ajustar as tags: p, li, h2, etc.
+        conteudos = soup.find_all(["p", "li"])
+        bloco = ""
+
+        for tag in conteudos:
+            texto = tag.get_text(strip=True)
+            if not texto:
+                continue
+            bloco += texto + " "
+
+        paragrafos = bloco.split(". ")
+        for p in paragrafos:
+            p = p.strip()
+            if len(p) < 30:
+                continue
+            p_traduzido = traduzir_para_pt(p)
+            base_conhecimento.append({
+                "conteudo": p_traduzido,
+                "fonte": url
+            })
+
+    except Exception as e:
+        print(f"❌ Erro ao processar {url}: {e}")
+
 # Função principal
 def main():
     os.makedirs(PASTA_SAIDA, exist_ok=True)
 
+    # Processa arquivos locais
     for arquivo in os.listdir(PASTA_ARQUIVOS):
-        if arquivo.startswith("~$"):  # Ignora arquivos temporários do Excel
+        if arquivo.startswith("~$"):
             continue
         caminho = os.path.join(PASTA_ARQUIVOS, arquivo)
-        print(f"🔍 Processando: {arquivo}")
+        print(f"📂 Processando arquivo: {arquivo}")
         if arquivo.endswith(".docx"):
             processar_word(caminho)
         elif arquivo.endswith(".pdf"):
@@ -103,12 +144,16 @@ def main():
         else:
             print(f"⚠️ Tipo de arquivo não suportado: {arquivo}")
 
+    # Processa URLs da internet
+    for url in URLS:
+        processar_url(url)
+
     # Caminho do arquivo de saída
     caminho_saida = os.path.join(PASTA_SAIDA, "base_conhecimento.json")
     with open(caminho_saida, 'w', encoding='utf-8') as f:
         json.dump(base_conhecimento, f, ensure_ascii=False, indent=2)
 
-    print(f"\n✅ Base criada com {len(base_conhecimento)} perguntas.")
+    print(f"\n✅ Base criada com {len(base_conhecimento)} registros.")
 
 if __name__ == "__main__":
     main()

@@ -8,7 +8,7 @@
     "resposta": "TLSv1.2"
   },
   {
-    "pergunta": "Os dados do cliente armazenados na solução do fornecedor são criptografados em repouso usando chaves de criptografia avançadas de AES ou equivalentes?",
+    "pergunta": "Os dados da igreja armazenados na solução do fornecedor são criptografados em repouso usando chaves de criptografia avançadas de AES ou equivalentes?",
     "resposta": "AES-256"
   },
   {
@@ -16,7 +16,7 @@
     "resposta": "SAML 2.0"
   },
   {
-    "pergunta": "A conta do cliente é usada para autenticação?",
+    "pergunta": "A conta da igreja é usada para autenticação?",
     "resposta": "Sim"
   },
   {
@@ -44,7 +44,7 @@
     "resposta": "Sim, há um registro de várias atividades no sistema, que podem ser acessadas para o administrador e compartilhadas com o cliente, se necessário."
   },
   {
-    "pergunta": "O fornecedor fornece registros importantes para eventos de aplicação, autorização e segurança para os SoC do cliente (Splunk Systems). Os seguintes são recomendados:",
+    "pergunta": "O fornecedor fornece registros importantes para eventos de aplicação, autorização e segurança para os SoC da igreja (Splunk Systems). Os seguintes são recomendados:",
     "resposta": "Sim, temos um log e monitoramos ações, mas a maneira de solicitar informações é através do canal de suporte."
   },
   {
@@ -434,5 +434,33 @@
   {
     "pergunta": "A parte contratada possui uma prevenção de perda de dados (DLP)?",
     "resposta": "Não"
+  },
+  {
+    "conteudo": "All content ROTINA CONSULTOR CREDENCIAL CONECTOR ROTINA GESTOR AGÊNCIALogos da Agência - CadastroGestor AgênciaFornecedor e Tarifário offlineConfigurando SLACategoria de HospedagemHotéis HomologadosConfigurando VoebizFEEBudgetCampos AdicionaisGestão de BilhetesRemovendo o bilhete do bancoFerramenta de ImportaçãoUtilizando o módulo ADMMódulo de Conciliação Faturado e CartãoConfigurando SSO (Single Sign-On)Configurando SSO SAML 2.0 no AzureFUNCIONALIDADES WEB X APPREGISTRO NUEVO CLIENTE - ESPAÑOLREGISTRO DE ACUERDOS, CREDENCIALES Y MÉTODO DE PAGO - ESPAÑOLWintour - Integração automática V4Seguro ViagemContatos para SuporteTemas de Cores novo layoutConfigurando Cores no Mobile Logos da Agência - Cadastro Gestor Agência Fornecedor e Tarifário offline Configurando SLA Categoria de Hospedagem Hotéis Homologados Configurando Voebiz FEE Budget Campos Adicionais Gestão de Bilhetes Removendo o bilhete do banco Ferramenta de Importação Utilizando o módulo ADM Módulo de Conciliação Faturado e Cartão Configurando SSO (Single Sign-On) Configurando SSO SAML 2.0 no Azure FUNCIONALIDADES WEB X APP REGISTRO NUEVO CLIENTE - ESPAÑOL REGISTRO DE ACUERDOS, CREDENCIALES Y MÉTODO DE PAGO - ESPAÑOL Wintour - Integração automática V4 Seguro Viagem Contatos para Suporte Temas de Cores novo layout Configurando Cores no Mobile Implantação Este manual aborda todos os processos da gestão de bilhetes",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
+  },
+  {
+    "conteudo": "11 - Gestão de Bilhetes 22 - Agência 33- Configurando Notificação3.1Controle de Versão 3.1Controle de Versão *PERMISSÃO:É necessário liberar a RoleACESSA_GESTAO_BILHETE Para acessar a tela “Gestão de Bilhetes” passe o mouse sobreRecursos> GESTÃO DE BILHETES Na  opção“Filtrar Bilhetes” permite aplicar os filtros abaixo: Selecione o bilhete e clique emPedir Reembolso:  Nesse momento será gerado a Solicitação de Reembolso e encaminhado para agência de viagens",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
+  },
+  {
+    "conteudo": "*OBSERVAÇÃO:A agência precisa ter oServiço de Reembolsocadastrado no tipo de produtosOutro",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
+  },
+  {
+    "conteudo": "*OBSERVAÇÃO:A solicitação é gerada com o tipo de produto “Outro” e integrada com o Benner Para a agência acessar as “Configurações do Cliente”, menuGerenciamento> Cliente> Cliente Corporativoe clique emListar",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
+  },
+  {
+    "conteudo": "Informar o Nome do cliente que deseja realizar a configuração, clique em listar,quando o cliente for exibido clique noícone engrenagem: Em seguida clique na abaNOTIFICAÇÕES: 9.06 Notificar o gestor por e-mail XX dias antes do vencimento do bilhete Preencher com a quantidades de dias de antecedência que o sistema deve notificar o vencimento do bilhete",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
+  },
+  {
+    "conteudo": "Quando o valor for igual 0 não enviar e-mail",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
+  },
+  {
+    "conteudo": "Versão Data Autor Comentário Versão Data Autor Comentário 1.0 Feb 23, 2024 Francielle Eringer",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
   }
 ]
