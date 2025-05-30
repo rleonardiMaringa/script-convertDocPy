@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import pandas as pd
 import requests
@@ -21,7 +22,7 @@ URLS = [
     "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
 ]
 
-# Função para traduzir texto se estiver em inglês
+# Tradução automática se necessário
 def traduzir_para_pt(texto):
     try:
         if detect(texto) == "en":
@@ -30,10 +31,15 @@ def traduzir_para_pt(texto):
         pass
     return texto
 
-# Adiciona bloco de conhecimento à base
+# Corrige palavras coladas: "emAmarelosão" -> "em Amarelosão"
+def corrigir_espacos(texto):
+    return re.sub(r"(?<=[a-záéíóúãõç])(?=[A-Z])", " ", texto)
+
+# Adiciona conteúdo à base com tradução e correção
 def adicionar_conteudo(conteudo, fonte):
-    conteudo = traduzir_para_pt(conteudo.strip())
-    if len(conteudo) > 30:  # evita blocos muito curtos
+    conteudo = corrigir_espacos(conteudo.strip())
+    conteudo = traduzir_para_pt(conteudo)
+    if len(conteudo) > 30:
         base_conhecimento.append({
             "conteudo": conteudo,
             "fonte": fonte
@@ -47,19 +53,31 @@ def processar_word(caminho):
         if texto:
             adicionar_conteudo(texto, os.path.basename(caminho))
 
-# Processa arquivos .pdf
+# Processa arquivos .pdf com união de parágrafos
 def processar_pdf(caminho):
     leitor = PdfReader(caminho)
     texto_total = ""
     for pagina in leitor.pages:
         texto_total += pagina.extract_text() + "\n"
-    paragrafos = texto_total.split("\n")
-    for p in paragrafos:
-        texto = p.strip()
-        if texto:
-            adicionar_conteudo(texto, os.path.basename(caminho))
 
-# Processa arquivos .xlsx (pega todas as células com texto)
+    paragrafos = texto_total.split("\n")
+    buffer = ""
+
+    for p in paragrafos:
+        linha = p.strip()
+        if not linha:
+            continue
+        if linha.endswith((".", "!", "?", ":")):
+            buffer += " " + linha
+            adicionar_conteudo(buffer.strip(), os.path.basename(caminho))
+            buffer = ""
+        else:
+            buffer += " " + linha
+
+    if buffer:
+        adicionar_conteudo(buffer.strip(), os.path.basename(caminho))
+
+# Processa arquivos .xlsx
 def processar_excel(caminho):
     df = pd.read_excel(caminho, dtype=str)
     for _, linha in df.iterrows():
@@ -69,7 +87,7 @@ def processar_excel(caminho):
                 if texto:
                     adicionar_conteudo(texto, os.path.basename(caminho))
 
-# Processa páginas da web (URLs)
+# Processa páginas web
 def processar_url(url):
     try:
         print(f"🌐 Processando URL: {url}")
@@ -88,7 +106,6 @@ def processar_url(url):
 def main():
     os.makedirs(PASTA_SAIDA, exist_ok=True)
 
-    # Processa arquivos locais
     for arquivo in os.listdir(PASTA_ARQUIVOS):
         if arquivo.startswith("~$"):
             continue
@@ -103,11 +120,9 @@ def main():
         else:
             print(f"⚠️ Tipo de arquivo não suportado: {arquivo}")
 
-    # Processa URLs da internet
     for url in URLS:
         processar_url(url)
 
-    # Caminho do arquivo de saída
     caminho_saida = os.path.join(PASTA_SAIDA, "base_semantica.json")
     with open(caminho_saida, 'w', encoding='utf-8') as f:
         json.dump(base_conhecimento, f, ensure_ascii=False, indent=2)

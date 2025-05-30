@@ -136,7 +136,7 @@
     "fonte": "questionariolgpd.xlsx"
   },
   {
-    "conteudo": "O fornecedor minimiza os serviços de portas em seus ACLs de firewall de implementação, NACLs ou grupos de segurança de rede (NSG), WAF - A implementação do WAF (controles de firewall de aplicativos da Web) é usada por fornecedores de SaaS?",
+    "conteudo": "O fornecedor minimiza os serviços de portas em seus ACLs de firewall de implementação, NACLs ou grupos de segurança de rede (NSG), WAF - A implementação de WAF (controles de firewall de aplicativos da web) é usada pelos fornecedores de SAA?",
     "fonte": "questionariolgpd.xlsx"
   },
   {
@@ -600,7 +600,7 @@
     "fonte": "security Risk.xlsx"
   },
   {
-    "conteudo": "O adiantamento é um gasto planejado previamente, onde a solicitação do dinheiro é realizada antes da data efetiva da despesa.",
+    "conteudo": "Solicitando Adiantamento O adiantamento é um gasto planejado previamente, onde a solicitação do dinheiro é realizada antes da data efetiva da despesa.",
     "fonte": "Solicitando Adiantamento.pdf"
   },
   {
@@ -608,19 +608,11 @@
     "fonte": "Solicitando Adiantamento.pdf"
   },
   {
-    "conteudo": "Na tela de solicitação deverá incluir o favorecido e preencher os Dados Gerais do Adiantamento: Data Início e Data Fim e a",
+    "conteudo": "Na tela de solicitação deverá incluir o favorecido e preencher os Dados Gerais do Adiantamento: Data Início e Data Fim e a Descrição do Adiantamento: Tipo de viagem, o Tipo de Despesa e o Valor a ser solicitado no adiantamento. Para prosseguir com a solicitação deverá clicar em CONCLUIR ADIANTAMENTO:",
     "fonte": "Solicitando Adiantamento.pdf"
   },
   {
-    "conteudo": "Descrição do Adiantamento: Tipo de viagem, o Tipo de Despesa e o Valor a ser solicitado no adiantamento. Para prosseguir com",
-    "fonte": "Solicitando Adiantamento.pdf"
-  },
-  {
-    "conteudo": "a solicitação deverá clicar em CONCLUIR ADIANTAMENTO:",
-    "fonte": "Solicitando Adiantamento.pdf"
-  },
-  {
-    "conteudo": "O sistema irá apresentar o resumo do adiantamento solicitado e caso todas as informações estejam corretas deverá clicar em",
+    "conteudo": "O sistema irá apresentar o resumo do adiantamento solicitado e caso todas as informações estejam corretas deverá clicar em PROSSEGUIR:",
     "fonte": "Solicitando Adiantamento.pdf"
   },
   {
@@ -632,11 +624,11 @@
     "fonte": "Solicitando Adiantamento.pdf"
   },
   {
-    "conteudo": "1.0 Jun 7, 2024 Aline Morais Versão InicialVersão Data Autor Comentário",
+    "conteudo": "Controle de Versão 1.0 Jun 7, 2024 Aline Morais Versão Inicial Versão Data Autor Comentário",
     "fonte": "Solicitando Adiantamento.pdf"
   },
   {
-    "conteudo": "ROTINA GESTOR AGÊNCIALogos da Agência - CadastroGestor AgênciaFornecedor e Tarifário offlineConfigurando SLACategoria de HospedagemHotéis HomologadosConfigurando VoebizFEEBudgetCampos AdicionaisGestão de BilhetesRemovendo o bilhete do bancoFerramenta de ImportaçãoUtilizando o módulo ADMMódulo de Conciliação Faturado e CartãoConfigurando SSO (Single Sign-On)Configurando SSO SAML 2.0 no AzureFUNCIONALIDADES WEB X APPREGISTRO NUEVO CLIENTE - ESPAÑOLREGISTRO DE ACUERDOS, CREDENCIALES Y MÉTODO DE PAGO - ESPAÑOLWintour - Integração automática V4Seguro ViagemContatos para SuporteTemas de Cores novo layoutConfigurando Cores no Mobile",
+    "conteudo": "ROTINA GESTOR AGÊNCIALogos da Agência - Cadastro Gestor Agência Fornecedor e Tarifário offline Configurando SLACategoria de Hospedagem Hotéis Homologados Configurando Voebiz FEEBudget Campos Adicionais Gestão de Bilhetes Removendo o bilhete do banco Ferramenta de Importação Utilizando o módulo ADMMódulo de Conciliação Faturado e Cartão Configurando SSO (Single Sign-On)Configurando SSO SAML 2.0 no Azure FUNCIONALIDADES WEB X APPREGISTRO NUEVO CLIENTE - ESPAÑOLREGISTRO DE ACUERDOS, CREDENCIALES Y MÉTODO DE PAGO - ESPAÑOLWintour - Integração automática V4Seguro Viagem Contatos para Suporte Temas de Cores novo layout Configurando Cores no Mobile",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
   },
   {
@@ -672,11 +664,11 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
   },
   {
-    "conteudo": "*PERMISSÃO:É necessário liberar a RoleACESSA_GESTAO_BILHETE",
+    "conteudo": "*PERMISSÃO:É necessário liberar a Role ACESSA_GESTAO_BILHETE",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
   },
   {
-    "conteudo": "Para acessar a tela “Gestão de Bilhetes” passe o mouse sobreRecursos> GESTÃO DE BILHETES",
+    "conteudo": "Para acessar a tela “Gestão de Bilhetes” passe o mouse sobre Recursos> GESTÃO DE BILHETES",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
   },
   {
@@ -684,11 +676,11 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
   },
   {
-    "conteudo": "Selecione o bilhete e clique emPedir Reembolso:  Nesse momento será gerado a Solicitação de Reembolso e encaminhado para agência de viagens.",
+    "conteudo": "Selecione o bilhete e clique em Pedir Reembolso:  Nesse momento será gerado a Solicitação de Reembolso e encaminhado para agência de viagens.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
   },
   {
-    "conteudo": "*OBSERVAÇÃO:A agência precisa ter oServiço de Reembolsocadastrado no tipo de produtosOutro.",
+    "conteudo": "*OBSERVAÇÃO:A agência precisa ter o Serviço de Reembolsocadastrado no tipo de produtos Outro.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
   },
   {
@@ -696,7 +688,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
   },
   {
-    "conteudo": "Para a agência acessar as “Configurações do Cliente”, menuGerenciamento> Cliente> Cliente Corporativoe clique emListar.",
+    "conteudo": "Para a agência acessar as “Configurações do Cliente”, menu Gerenciamento> Cliente> Cliente Corporativoe clique em Listar.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
   },
   {
@@ -704,7 +696,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
   },
   {
-    "conteudo": "Em seguida clique na abaNOTIFICAÇÕES:",
+    "conteudo": "Em seguida clique na aba NOTIFICAÇÕES:",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
   },
   {
@@ -716,7 +708,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
   },
   {
-    "conteudo": "ROTINA GESTOR AGÊNCIALogos da Agência - CadastroGestor AgênciaFornecedor e Tarifário offlineConfigurando SLACategoria de HospedagemHotéis HomologadosConfigurando VoebizFEEBudgetCampos AdicionaisGestão de BilhetesRemovendo o bilhete do bancoFerramenta de ImportaçãoUtilizando o módulo ADMMódulo de Conciliação Faturado e CartãoConfigurando SSO (Single Sign-On)Configurando SSO SAML 2.0 no AzureFUNCIONALIDADES WEB X APPREGISTRO NUEVO CLIENTE - ESPAÑOLREGISTRO DE ACUERDOS, CREDENCIALES Y MÉTODO DE PAGO - ESPAÑOLWintour - Integração automática V4Seguro ViagemContatos para SuporteTemas de Cores novo layoutConfigurando Cores no Mobile",
+    "conteudo": "ROTINA GESTOR AGÊNCIALogos da Agência - Cadastro Gestor Agência Fornecedor e Tarifário offline Configurando SLACategoria de Hospedagem Hotéis Homologados Configurando Voebiz FEEBudget Campos Adicionais Gestão de Bilhetes Removendo o bilhete do banco Ferramenta de Importação Utilizando o módulo ADMMódulo de Conciliação Faturado e Cartão Configurando SSO (Single Sign-On)Configurando SSO SAML 2.0 no Azure FUNCIONALIDADES WEB X APPREGISTRO NUEVO CLIENTE - ESPAÑOLREGISTRO DE ACUERDOS, CREDENCIALES Y MÉTODO DE PAGO - ESPAÑOLWintour - Integração automática V4Seguro Viagem Contatos para Suporte Temas de Cores novo layout Configurando Cores no Mobile",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
@@ -772,11 +764,11 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "É necessário ter oJAVAatualizado e instalado no seu computador.",
+    "conteudo": "É necessário ter o JAVAatualizado e instalado no seu computador.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "Através do menuRecursos>Ferramenta de Importação",
+    "conteudo": "Através do menu Recursos>Ferramenta de Importação",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
@@ -784,7 +776,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "Após efetuar o login, você terá acesso à ferramenta, no qual será possível executar os processos deIMPORTAÇÃO, CONVERSÃOe download deDOCUMENTAÇÃO",
+    "conteudo": "Após efetuar o login, você terá acesso à ferramenta, no qual será possível executar os processos de IMPORTAÇÃO, CONVERSÃOe download de DOCUMENTAÇÃO",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
@@ -792,11 +784,11 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "Títulos emVermelhodefine informações obrigatória e emAmarelosão campos adicionais que podem ou não ser preenchidos, porém existem Regras que devem ser seguidas.",
+    "conteudo": "Títulos em Vermelhodefine informações obrigatória e em Amarelosão campos adicionais que podem ou não ser preenchidos, porém existem Regras que devem ser seguidas.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "Após concluir o preenchimento, salve o arquivo no formatoCSV(separado por vírgulas)",
+    "conteudo": "Após concluir o preenchimento, salve o arquivo no formato CSV(separado por vírgulas)",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
@@ -808,11 +800,11 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "Clique emProcurarpara localizar o arquivo, e logo em seguida emValidar Arquivopara efetuar a validação do layout e das colunas da documentação, e para concluir a importação, clique emEnviar Arquivo.",
+    "conteudo": "Clique em Procurarpara localizar o arquivo, e logo em seguida em Validar Arquivopara efetuar a validação do layout e das colunas da documentação, e para concluir a importação, clique em Enviar Arquivo.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "Ao realizar a importação, será gerado o número doProtocolo.",
+    "conteudo": "Ao realizar a importação, será gerado o número do Protocolo.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
@@ -820,27 +812,27 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "Preencha o campoPROTOCOLO Nºe clica emBUSCAR.",
+    "conteudo": "Preencha o campo PROTOCOLO Nºe clica em BUSCAR.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "Preencha o campoPROTOCOLO Nºe clica emBUSCAR.",
+    "conteudo": "Preencha o campo PROTOCOLO Nºe clica em BUSCAR.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "Outra opção eSEM PROTOCOLO, podemos também realizar a busca por parâmetros:",
+    "conteudo": "Outra opção e SEM PROTOCOLO, podemos também realizar a busca por parâmetros:",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "Outra opção eSEM PROTOCOLO, podemos também realizar a busca por parâmetros:",
+    "conteudo": "Outra opção e SEM PROTOCOLO, podemos também realizar a busca por parâmetros:",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "SelecionamosCLIENTEeLAYOUT.- Definimos o período emDATA DA IMPORTAÇÃO DEeATÉe qual informação desejamos buscar em SOMENTE COM ERROS? (SIM) (NÃO) ou (AMBOS) e clicamos emBUSCAR.",
+    "conteudo": "Selecionamos CLIENTEe LAYOUT.- Definimos o período em DATA DA IMPORTAÇÃO DEe ATÉe qual informação desejamos buscar em SOMENTE COM ERROS? (SIM) (NÃO) ou (AMBOS) e clicamos em BUSCAR.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "No resultado da busca você pode verificar na colunaERRO?se ocorreu erros durante a importação, clique sobre a linha que apresenta erro e logo apósVISUALIZAR O LOGpara ver as informações caso tenha erro.",
+    "conteudo": "No resultado da busca você pode verificar na coluna ERRO?se ocorreu erros durante a importação, clique sobre a linha que apresenta erro e logo após VISUALIZAR O LOGpara ver as informações caso tenha erro.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
@@ -848,7 +840,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "EmCAMPOS PARA CONVERSÃOo layout padrão ficará disponível para que você informe onde o sistema irá buscar na sua planilha os dados que serão importados.",
+    "conteudo": "Em CAMPOS PARA CONVERSÃOo layout padrão ficará disponível para que você informe onde o sistema irá buscar na sua planilha os dados que serão importados.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
@@ -856,7 +848,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "EmDOCUMENTAÇÃOpodemos localizar todos os layouts para importação de arquivos.",
+    "conteudo": "Em DOCUMENTAÇÃOpodemos localizar todos os layouts para importação de arquivos.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
@@ -864,15 +856,15 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "1 - Selecione emVERSÃOsempre a ultima opção (a versão atual).",
+    "conteudo": "1 - Selecione em VERSÃOsempre a ultima opção (a versão atual).",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "2 - Clique emSALVAR XLS, para salvar a o layout.",
+    "conteudo": "2 - Clique em SALVAR XLS, para salvar a o layout.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
   },
   {
-    "conteudo": "ACESSO AO SISTEMAAcessando SelfBookingRecurso MFA - Autenticação por Token via E-mail",
+    "conteudo": "ACESSO AO SISTEMAAcessando Self Booking Recurso MFA - Autenticação por Token via E-mail",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
   },
   {
@@ -880,7 +872,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
   },
   {
-    "conteudo": "Para realizar o acesso ao SistemaSELFBOOKING LEMONTECH, acesse o seguinte endereçohttp://selfbooking.lemontech.com.br",
+    "conteudo": "Para realizar o acesso ao Sistema SELFBOOKING LEMONTECH, acesse o seguinte endereçohttp://selfbooking.lemontech.com.br",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
   },
   {
@@ -896,7 +888,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
   },
   {
-    "conteudo": "No processo de registro no SelfBooking, será solicitado o preenchimento dos seguintes campos:",
+    "conteudo": "No processo de registro no Self Booking, será solicitado o preenchimento dos seguintes campos:",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
   },
   {
@@ -940,7 +932,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
   },
   {
-    "conteudo": "O sistema SelfBooking solicitará o preenchimento dos seguintes campos:",
+    "conteudo": "O sistema Self Booking solicitará o preenchimento dos seguintes campos:",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
   },
   {
@@ -980,7 +972,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
   },
   {
-    "conteudo": "“Cliente bloqueadoPrezados usuários, Sistema bloqueado, favor entrar em contato com a gestão de viagens.”",
+    "conteudo": "“Cliente bloqueado Prezados usuários, Sistema bloqueado, favor entrar em contato com a gestão de viagens.”",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
   },
   {
@@ -1016,7 +1008,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
   },
   {
-    "conteudo": "ROTINA DO USUÁRIOSolicitando Aéreo OnlineSolicitando Aéreo OfflineRevalidar e ReservarUtilizando Banco de BilhetesSolicitando ReemissãoRemarcação OnlineSolicitando SeguroSolicitando RodoviárioSolicitando CarroEscolher Orçamento / Pré-AprovaçãoAprovação de ProdutosNotificação Passaporte e VistoTarifa Média: Apresentação do Custo Médio do Aéreo para Nacional e InternacionalGestão de Bilhetes",
+    "conteudo": "ROTINA DO USUÁRIOSolicitando Aéreo Online Solicitando Aéreo Offline Revalidar e Reservar Utilizando Banco de Bilhetes Solicitando Reemissão Remarcação Online Solicitando Seguro Solicitando Rodoviário Solicitando Carro Escolher Orçamento / Pré-Aprovação Aprovação de Produtos Notificação Passaporte e Visto Tarifa Média: Apresentação do Custo Médio do Aéreo para Nacional e Internacional Gestão de Bilhetes",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
@@ -1032,7 +1024,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "Na tela de criação de uma nova solicitação, o produtoAéreojá estará selecionado por padrão.",
+    "conteudo": "Na tela de criação de uma nova solicitação, o produto Aéreojá estará selecionado por padrão.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
@@ -1100,7 +1092,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "Após preencher todas as informações necessárias, clique no botãoPESQUISAR.",
+    "conteudo": "Após preencher todas as informações necessárias, clique no botão PESQUISAR.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
@@ -1184,19 +1176,19 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "A opçãoBanco de Bilhetes, localizada acima dos filtros, tem a finalidade exclusiva de consulta. Ao clicar emVerificar, o sistema exibirá informações sobre eventuais bilhetes com créditos disponíveis, indicando a companhia responsável e o valor correspondente.",
+    "conteudo": "A opção Banco de Bilhetes, localizada acima dos filtros, tem a finalidade exclusiva de consulta. Ao clicar em Verificar, o sistema exibirá informações sobre eventuais bilhetes com créditos disponíveis, indicando a companhia responsável e o valor correspondente.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "Além dos filtros, há a seção de orçamento, também localizada na lateral esquerda. Nessa área, é possível selecionar as opções desejadas e encaminhar um orçamento de diferentes formas, comoEnvio por E-mail, Download em PDF ou Download em TXT:",
+    "conteudo": "Além dos filtros, há a seção de orçamento, também localizada na lateral esquerda. Nessa área, é possível selecionar as opções desejadas e encaminhar um orçamento de diferentes formas, como Envio por E-mail, Download em PDF ou Download em TXT:",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "Para continuar o processo da reserva clique emVER TARIFAS",
+    "conteudo": "Para continuar o processo da reserva clique em VER TARIFAS",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "Após clicar emVer Tarifas, serão exibidas as famílias tarifárias disponíveis para o voo selecionado, juntamente com os serviços incluídos em cada uma e a opção de consulta às regras aplicáveis.",
+    "conteudo": "Após clicar em Ver Tarifas, serão exibidas as famílias tarifárias disponíveis para o voo selecionado, juntamente com os serviços incluídos em cada uma e a opção de consulta às regras aplicáveis.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
@@ -1204,15 +1196,15 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "Para prosseguir com a reserva, clique emSELECIONARna família tarifária desejada:",
+    "conteudo": "Para prosseguir com a reserva, clique em SELECIONARna família tarifária desejada:",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "Após selecionar a tarifa do voo deida, o voo escolhido será exibido no campoVoos Selecionados, localizado na lateral esquerda da tela. Em seguida, o sistema carregará automaticamente as opções disponíveis para o voo devolta.",
+    "conteudo": "Após selecionar a tarifa do voo deida, o voo escolhido será exibido no campo Voos Selecionados, localizado na lateral esquerda da tela. Em seguida, o sistema carregará automaticamente as opções disponíveis para o voo devolta.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "A seleção do voo de volta segue o mesmo procedimento adotado para a ida: bastaescolher a tarifa desejada.Após a escolha da tarifa de volta, o voo será adicionado ao campoVoos Selecionados.",
+    "conteudo": "A seleção do voo de volta segue o mesmo procedimento adotado para a ida: bastaescolher a tarifa desejada.Após a escolha da tarifa de volta, o voo será adicionado ao campo Voos Selecionados.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
@@ -1220,7 +1212,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "Para prosseguir com a reserva, clique emADICIONAR À VIAGEM.",
+    "conteudo": "Para prosseguir com a reserva, clique em ADICIONAR À VIAGEM.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
@@ -1228,15 +1220,15 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "Nessa etapa, será necessário preencher os campos obrigatórios antes de prosseguir. Se essa tela for apresentada durante o processo de reserva, basta inserir as informações solicitadas e clicar emSALVARpara continuar.",
+    "conteudo": "Nessa etapa, será necessário preencher os campos obrigatórios antes de prosseguir. Se essa tela for apresentada durante o processo de reserva, basta inserir as informações solicitadas e clicar em SALVARpara continuar.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "Após salvar os dados, umanotificação de confirmação de atualizaçãoserá exibida. Basta fechar essa janela e, em seguida, a tela deconfirmação de escolhaserá apresentada.  Para concluir a reserva, clique emRESERVAR",
+    "conteudo": "Após salvar os dados, umanotificação de confirmação de atualizaçãoserá exibida. Basta fechar essa janela e, em seguida, a tela deconfirmação de escolhaserá apresentada.  Para concluir a reserva, clique em RESERVAR",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "Após concluir a reserva, o sistema irá redirecioná-lo para a tela deProdutos Reservados, onde será exibida a reserva realizada. Caso tenha selecionado ida e volta pela mesma companhia aérea e as classes tarifárias sejam compatíveis, umalerta de economiaserá exibido, informando o valor do desconto aplicado. Esse alerta é apenas informativo. Caso apareça, basta fechá-lo clicando no ícone\"X\".",
+    "conteudo": "Após concluir a reserva, o sistema irá redirecioná-lo para a tela de Produtos Reservados, onde será exibida a reserva realizada. Caso tenha selecionado ida e volta pela mesma companhia aérea e as classes tarifárias sejam compatíveis, umalerta de economiaserá exibido, informando o valor do desconto aplicado. Esse alerta é apenas informativo. Caso apareça, basta fechá-lo clicando no ícone\"X\".",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
@@ -1244,7 +1236,7 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "Na tela deProdutos Reservados, todas as informações dos voos selecionados serão exibidas para que você possa realizar a última validação antes de concluir a reserva.",
+    "conteudo": "Na tela de Produtos Reservados, todas as informações dos voos selecionados serão exibidas para que você possa realizar a última validação antes de concluir a reserva.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
@@ -1336,11 +1328,11 @@
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "Para concluir a SV clique emPROSSEGUIR.",
+    "conteudo": "Para concluir a SV clique em PROSSEGUIR.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   },
   {
-    "conteudo": "Ao prosseguir, você será direcionado para a tela de conclusão da SV. Nessa etapa, caso a política da sua empresa permita, será possível alterar o centro de custo. Além disso, é obrigatório informar o motivo da viagem. Após revisar e confirmar os dados, clique emCONCLUIR. O número da SV será gerado, contendo todas as informações da solicitação.",
+    "conteudo": "Ao prosseguir, você será direcionado para a tela de conclusão da SV. Nessa etapa, caso a política da sua empresa permita, será possível alterar o centro de custo. Além disso, é obrigatório informar o motivo da viagem. Após revisar e confirmar os dados, clique em CONCLUIR. O número da SV será gerado, contendo todas as informações da solicitação.",
     "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
   }
 ]
