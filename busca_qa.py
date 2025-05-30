@@ -15,7 +15,10 @@ base_conhecimento = []
 
 # Lista de URLs a serem processadas
 URLS = [
-    "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
+    "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes",
+    "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o",
+    "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking",
+    "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
     # Adicione outras URLs aqui, se quiser
 ]
 
@@ -36,7 +39,7 @@ def normalizar_resposta_simples(resposta):
         return "Não"
     return resposta
 
-# Adiciona pergunta e resposta, com tradução e normalização
+# Adiciona pergunta e resposta formatadas à base
 def adicionar_pergunta_resposta(pergunta, resposta):
     pergunta = traduzir_para_pt(pergunta.strip())
     resposta = normalizar_resposta_simples(resposta.strip())
@@ -93,6 +96,19 @@ def processar_excel(caminho):
         if pergunta and resposta:
             adicionar_pergunta_resposta(pergunta, resposta)
 
+# Heurística simples para detectar se é pergunta
+def eh_pergunta(texto):
+    texto = texto.strip().lower()
+    return (
+        texto.endswith("?") or
+        texto.startswith("como ") or
+        texto.startswith("o que ") or
+        texto.startswith("por que ") or
+        texto.startswith("qual ") or
+        texto.startswith("quando ") or
+        texto.startswith("quem ")
+    )
+
 # Processa páginas da web (URLs)
 def processar_url(url):
     try:
@@ -101,26 +117,34 @@ def processar_url(url):
         resposta.raise_for_status()
         soup = BeautifulSoup(resposta.text, "html.parser")
 
-        # Você pode ajustar as tags: p, li, h2, etc.
-        conteudos = soup.find_all(["p", "li"])
+        conteudos = soup.find_all(["p", "li", "h2", "h3"])
         bloco = ""
 
         for tag in conteudos:
             texto = tag.get_text(strip=True)
-            if not texto:
+            if not texto or len(texto) < 10:
                 continue
             bloco += texto + " "
 
         paragrafos = bloco.split(". ")
+        adicionados = set()
+
         for p in paragrafos:
             p = p.strip()
-            if len(p) < 30:
+            if len(p) < 30 or p.lower() in adicionados:
                 continue
             p_traduzido = traduzir_para_pt(p)
-            base_conhecimento.append({
-                "conteudo": p_traduzido,
-                "fonte": url
-            })
+            if eh_pergunta(p_traduzido):
+                base_conhecimento.append({
+                    "pergunta": p_traduzido,
+                    "resposta": f"(Conteúdo extraído da página: {url})"
+                })
+            else:
+                base_conhecimento.append({
+                    "conteudo": p_traduzido,
+                    "fonte": url
+                })
+            adicionados.add(p.lower())
 
     except Exception as e:
         print(f"❌ Erro ao processar {url}: {e}")
@@ -149,7 +173,7 @@ def main():
         processar_url(url)
 
     # Caminho do arquivo de saída
-    caminho_saida = os.path.join(PASTA_SAIDA, "base_conhecimento.json")
+    caminho_saida = os.path.join(PASTA_SAIDA, "base_qa.json")
     with open(caminho_saida, 'w', encoding='utf-8') as f:
         json.dump(base_conhecimento, f, ensure_ascii=False, indent=2)
 

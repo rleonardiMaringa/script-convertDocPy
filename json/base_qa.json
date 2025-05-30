@@ -1,0 +1,814 @@
+[
+  {
+    "pergunta": "Descrição de SaaS",
+    "resposta": "Ferramenta focada em viagens corporativas para reservar produtos, despesas e políticas de viagem a mecedores"
+  },
+  {
+    "pergunta": "As conexões entre o cliente/servidor são seguras? Se sim, qual tecnologia e versão?",
+    "resposta": "TLSv1.2"
+  },
+  {
+    "pergunta": "Os dados da igreja armazenados na solução do fornecedor são criptografados em repouso usando chaves de criptografia avançadas de AES ou equivalentes?",
+    "resposta": "AES-256"
+  },
+  {
+    "pergunta": "Tecnologia de autenticação usada para acessar o serviço?",
+    "resposta": "SAML 2.0"
+  },
+  {
+    "pergunta": "A conta da igreja é usada para autenticação?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A tecnologia de tecnologia/aplicativo/solução suporta uma política de bloqueio de senha inválida?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O Tecnologia/Aplicativo/Solução suporta tempo limite da sessão? Se sim, quanto tempo?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Governança de acesso - O fornecedor possui controles para detectar e impedir alterações não autorizadas nas funções de administrador?",
+    "resposta": "Sim, temos perfis de acesso separados"
+  },
+  {
+    "pergunta": "Governança de acesso - O provedor deve fornecer os meios para revisar o acesso privilegiado e o acesso do usuário.",
+    "resposta": "Existe a expiração da Política 1.6 Passwaord, que pode ser programada para bloquear senhas e solicitar a renovação de acesso"
+  },
+  {
+    "pergunta": "Deve ser capaz de desativar contas não utilizadas por meio de análises de acesso regular:",
+    "resposta": "nan"
+  },
+  {
+    "pergunta": "O fornecedor captura e audita os principais registros de sistemas e eventos de segurança em sua própria infraestrutura.",
+    "resposta": "Sim, há um registro de várias atividades no sistema, que podem ser acessadas para o administrador e compartilhadas com o cliente, se necessário."
+  },
+  {
+    "pergunta": "O fornecedor fornece registros importantes para eventos de aplicação, autorização e segurança para os SoC da igreja (Splunk Systems). Os seguintes são recomendados:",
+    "resposta": "Sim, temos um log e monitoramos ações, mas a maneira de solicitar informações é através do canal de suporte."
+  },
+  {
+    "pergunta": "Outros eventos específicos do aplicativo, conforme necessário. Como o fornecedor é capaz de enviar esses logs? (API, lote… etc.) Os dados podem ser retransmitidos em tempo real ou com frequência arquivo em lote (10 minutos)?",
+    "resposta": "nan"
+  },
+  {
+    "pergunta": "Como as chaves de criptografia são protegidas?",
+    "resposta": "Sim, as chaves são criptografadas antes de serem salvas no banco. E eles podem ser compartilhados com o cliente em caso de auditoria"
+  },
+  {
+    "pergunta": "Análise de Comportamento - Implementação da análise de comportamento. O fornecedor compartilha descobertas com a igreja?",
+    "resposta": "Temos um monitoramento de pilha composto por várias camadas. Os IPS/IDS e os serviços de monitoramento de arquivos são implementados na pilha."
+  },
+  {
+    "pergunta": "Atestado de controle: o fornecedor deve fornecer documentação descrevendo seu programa de segurança interna e divulgar os resultados relevantes da auditoria do SSAE-16.",
+    "resposta": "PCI-DSS"
+  },
+  {
+    "pergunta": "Os atestados devem incluir cópias fornecidas por empresas de auditoria independentes e credenciadas, como KMPG, PWC, EY, Deloitte ...",
+    "resposta": "nan"
+  },
+  {
+    "pergunta": "Forneça documentação formal que aborda os seguintes assuntos:",
+    "resposta": "Políticas anexadas"
+  },
+  {
+    "pergunta": "Forneça informações (relatórios) sobre testes de penetração conduzidos por partes externas, de preferência nos últimos 12 meses. Os relatórios fornecem resultados de teste para revisão.",
+    "resposta": "Relatórios anexados"
+  },
+  {
+    "pergunta": "O fornecedor aplica regularmente atualizações de patches em servidores, bancos de dados, redes ... dentro de 30 a 60 dias após a liberação do fabricante.",
+    "resposta": "Sim, nossas atualizações acontecem 4 vezes por mês."
+  },
+  {
+    "pergunta": "Você tem um plano de resposta incidente ou de violação e uma equipe dedicada ao CSIRT?",
+    "resposta": "Sim, temos um procedimentos de resposta a incidentes (anexado)"
+  },
+  {
+    "pergunta": "Você tem um SOC (Centro de Operações de Segurança) que monitora alerta de eventos e eventos suspeitos em torno das principais transações?",
+    "resposta": "Sim, temos monitores dentro do processo que notificam o cliente de ações tomadas dentro da ferramenta."
+  },
+  {
+    "pergunta": "O fornecedor emprega linhas de base de configuração endurecida nos serviços de computação e banco de dados.",
+    "resposta": "Sim, todo o ambiente foi projetado de acordo com os padrões de segurança. Todos os componentes do sistema têm configurações de endurecimento."
+  },
+  {
+    "pergunta": "O fornecedor realiza varreduras regulares de vulnerabilidade da web para questões como XXs e SQLI e você remedia problemas de alta gravidade em tempo hábil?",
+    "resposta": "Sim, trimestralmente."
+  },
+  {
+    "pergunta": "O fornecedor minimiza os serviços de portas em seus ACLs de firewall de implementação, NACLs ou grupos de segurança de rede (NSG), WAF - A implementação do WAF (controles de firewall de aplicativos da Web) é usada por fornecedores de SaaS?",
+    "resposta": "Rede de ACL e WAF no lugar."
+  },
+  {
+    "pergunta": "Você conduz varreduras regulares de vulnerabilidade de aplicativos para detectar questões como serviços portuários não autorizados, patching etc., e você remedia problemas de alta gravidade em tempo hábil?",
+    "resposta": "Yes, quarterly"
+  },
+  {
+    "pergunta": "Política de Privacidade - O fornecedor divulgou sua política de privacidade corporativa que descreve os métodos para coleta, uso e processamento de PII e divulga os procedimentos de proteção de dados do cliente.",
+    "resposta": "Políticas de privacidade em vigor e publicadas."
+  },
+  {
+    "pergunta": "Você tem uma política de senha interna aplicada para os funcionários?",
+    "resposta": "Sim, usamos o SSO para controlar o acesso."
+  },
+  {
+    "pergunta": "Governança de acesso - O fornecedor possui controles para detectar e impedir alterações não autorizadas nas funções internas do administrador.",
+    "resposta": "Sim, as atualizações são permitidas apenas por pessoas e/ou processos autorizados como perfil de gerente ou acesso à API."
+  },
+  {
+    "pergunta": "Você verifica que o pessoal que trabalha em seu sistema está autorizado?",
+    "resposta": "Sim, o login só pode ser feito via SSO, você precisa ser registrado em nosso sistema e com o provedor de serviços."
+  },
+  {
+    "pergunta": "Os princípios de menor privilégio são práticas padrão na organização. Este método é implementado em sua organização e no acesso de informações?",
+    "resposta": "Todo o acesso ao sistema é baseado no menos privado. Políticas de controle de acesso anexadas"
+  },
+  {
+    "pergunta": "A autenticação de MFA ou dois fatores é usada para administradores de sistema ou outro pessoal de suporte aplicável.",
+    "resposta": "Sim, você pode usar o MFA ou o SSO para autenticação. Se você usar uma solução que forneça MFA, poderá usar os dois ao mesmo tempo."
+  },
+  {
+    "pergunta": "As contas de serviço do aplicativo não são usadas pelo pessoal administrativo. (As contas de serviço são um tipo especial de conta privilegiada não humana usada para executar aplicativos e executar serviços automatizados, instâncias de máquinas virtuais e outros processos. Contas de serviço podem ser contas locais ou de domínio privilegiadas e, em alguns casos, podem ter privilégios administrativos de domínio.)",
+    "resposta": "Não, os perfis de acesso e privilégios são definidos na ferramenta."
+  },
+  {
+    "pergunta": "Localização do desenvolvedor?",
+    "resposta": "Our developers are Brazilian."
+  },
+  {
+    "pergunta": "É de uma grande empresa, pequena e média empresa (SMB), grupo de voluntários ou um único desenvolvedor? (O risco pode subir à medida que os colaboradores caem ou o software de uma grande empresa pode ser mais seguro, pois eles têm mais recursos para isso):",
+    "resposta": "A empresa pertence a um grande grupo de empresas brasileiras."
+  },
+  {
+    "pergunta": "URL do site do fornecedor/empresa",
+    "resposta": "https://maringaturismo.com.br/"
+  },
+  {
+    "pergunta": "URL de Política de Segurança/Privacidade do fornecedor/empresa",
+    "resposta": "https://maringaturismo.com.br/lgpd/"
+  },
+  {
+    "pergunta": "Liste qualquer incidentes históricos de violação/segurança conhecidos para o fornecedor/empresa",
+    "resposta": "Carlos"
+  },
+  {
+    "pergunta": "O sistema garante que somente usuários autorizados consigam acessá-lo por meio de um processo seguro de autenticação?",
+    "resposta": "Sim, o sistema possui autenticação com controle de acesso seguro, SSO."
+  },
+  {
+    "pergunta": "O sistema permite autenticação via LDAP, SAML, OIDC ou outro protocolo seguro?",
+    "resposta": "Autenticação via SAML"
+  },
+  {
+    "pergunta": "Se não houver suporte ao AD, o sistema possui mecanismos robustos de autenticação (banco de usuários próprio com MFA obrigatório)?",
+    "resposta": "Possui suporte ao AD"
+  },
+  {
+    "pergunta": "A autorização de usuários é baseada em grupos do AD ou perfis internos do sistema?",
+    "resposta": "Perfis internos do sistema."
+  },
+  {
+    "pergunta": "O sistema permite atribuir e remover permissões de forma centralizada?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O Sistema Suporta MFA (Ex.: Google Authenticator, Microsoft Authenticator, Yubikey)?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O MFA é exigido para acessos administrativos ou de alto privilégio?",
+    "resposta": "Será exigido a todos os usuários"
+  },
+  {
+    "pergunta": "O sistema impede múltiplas sessões simultâneas com a mesma credencial?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "É possível configurar tempo máximo de inatividade antes do logout automático?",
+    "resposta": "Não é possível"
+  },
+  {
+    "pergunta": "O número de tentativas inválidas de login é configurável para bloquear o usuário após um limite definido?",
+    "resposta": "3 tentativas, não configurável"
+  },
+  {
+    "pergunta": "O sistema permite a recuperação de conta com fluxo seguro de redefinição de senha?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A redefinição de senha exige autenticação secundária (ex.: e-mail verificado, MFA)?",
+    "resposta": "Sim 2.2 Gestão de Senhas"
+  },
+  {
+    "pergunta": "O sistema permite envio automático de senhas por canal seguro (e-mail criptografado, SMS seguro)?",
+    "resposta": "Permite via e-mail"
+  },
+  {
+    "pergunta": "As senhas iniciais são aleatórias e temporárias, exigindo troca no primeiro acesso?",
+    "resposta": "Sim O sistema suporta configuração personalizada de senhas, incluindo: Mínimo de 8 caracteres; Uso obrigatório de letras maiúsculas, minúsculas, números e caracteres especiais;"
+  },
+  {
+    "pergunta": "Expiração periódica de senhas (parametrizável)?",
+    "resposta": "Permite personalizar a política de senhas, e expiração periódica."
+  },
+  {
+    "pergunta": "O sistema obriga a troca de senha no primeiro acesso?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O sistema notifica o usuário sempre que sua senha for alterada?",
+    "resposta": "Sim 2.3 Controle de Permissões e Perfis"
+  },
+  {
+    "pergunta": "O sistema permite criação e gerenciamento de perfis de acesso com permissões predefinidas?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Perfis são baseados em funções de negócio, evitando atribuição direta de permissões a usuários individuais?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O sistema impede que um único usuário tenha acessos conflitantes (ex.: criar e aprovar transações financeiras)?",
+    "resposta": "É possível configurar as permissões dos usuários"
+  },
+  {
+    "pergunta": "O sistema oferece um painel ou relatório que permite visualizar e auditar acessos atribuídos a cada usuário?",
+    "resposta": "Sim 3. Requisitos de Segurança e Auditoria 3.1 Logs e Rastreabilidade O sistema armazena logs detalhados de: Tentativas de login (sucesso e falha); Alterações de senha (usuário, data, IP de origem); Criação, remoção e modificação de usuários e permissões;"
+  },
+  {
+    "pergunta": "Alterações administrativas (configurações críticas do sistema)?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O sistema permite exportação dos logs para ferramentas de auditoria e SIEMs?",
+    "resposta": "Não é possível exportar"
+  },
+  {
+    "pergunta": "Logs são retidos por no mínimo 6 meses e estão acessíveis para consulta?",
+    "resposta": "Sim 4. Requisitos de Automação e Provisionamento"
+  },
+  {
+    "pergunta": "O sistema permite importação e sincronização de usuários com o AD?",
+    "resposta": "Via AD apenas autenticação."
+  },
+  {
+    "pergunta": "A criação e remoção de usuários é automatizada conforme regras de governança?",
+    "resposta": "É possível automatizar através de API O sistema permite extração de relatório de dados de usuários, incluindo:"
+  },
+  {
+    "pergunta": "Login, nome, status, perfil, data de criação, último login, última modificação?",
+    "resposta": "Sim, exceto informações de último login"
+  },
+  {
+    "pergunta": "O sistema oferece APIs que permitem integração com ferramentas de gestão de identidades e acessos?",
+    "resposta": "Sim. Documentação disponível através do link: https://lemontechinfo.atlassian.net/wiki/spaces/DW/overview 5. Conformidade e Manutenção O sistema segue padrões reconhecidos, como: ISO 27001 (Gestão de Segurança da Informação); NIST SP 800-63 (Autenticação Digital);"
+  },
+  {
+    "pergunta": "LGPD / GDPR (Proteção de Dados Pessoais)?",
+    "resposta": "Possuímos certificação PCI-DSS"
+  },
+  {
+    "pergunta": "O fornecedor garante atualizações regulares e suporte técnico contínuo?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Vulnerabilidades de segurança são corrigidas com SLAs claros?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O sistema permite auditorias para verificar conformidade com os requisitos estabelecidos?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Logs e acessos são revisados regularmente para identificação de anomalias?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui cobertura de seguro para incidentes de segurança da informação/incidentes de privacidade? A cobertura é suficiente?",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "A parte contratada experimentou violações de segurança da informação nos últimos dois (2) anos? Se sim, obtenha mais informações sobre as circunstâncias da violação e como a parte contratada remediou a vulnerabilidade que levou à violação?",
+    "resposta": "Não, não houve incidentes de segurança nos últimos dois anos."
+  },
+  {
+    "pergunta": "A parte contratada está sujeita a quaisquer ações, investigações ou litígios relacionados à privacidade ou segurança da informação? Se sim, forneça cópias de documentos relevantes?",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "A parte contratada possui uma política de disciplina e a aplica em seu pessoal por violações de suas políticas e procedimentos relacionados à privacidade e segurança da informação? Se sim, como é realizado?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada exige que funcionários e contratados assinem contratos de confidencialidade e segurança de dados? Se sim, forneça uma cópia para revisão.",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada fornece treinamento apropriado ao pessoal relevante sobre as políticas de privacidade e segurança aplicáveis ​​ao tratamento da parte contratada por contratação de informações da parte? Forneça uma cópia de qualquer material de treinamento.",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada instrui seus funcionários e contratados a limitar o armazenamento de informações da parte contratante em dispositivos de extremidade ao mínimo necessário para fins comerciais?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada identifica e avalia regularmente os riscos e o nível de conformidade relacionados à privacidade dos dados pessoais e à segurança da informação em suas operações? Se sim, compartilhe as evidências.",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada tem uma política para limitar o acesso às informações da parte contratante para funcionários e contratados necessários para saber?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A triagem de terceiros conduz a triagem de funcionários e contratados que têm acesso a informações sobre contratação?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui políticas e controles para a revisão regular das permissões de acesso à contratação de informações da parte para garantir que apenas funcionários e contratados necessários tenham acesso, bem como um procedimento para impedir prontamente que os funcionários e contratados demitidos acessem informações sobre contratação? Se sim, forneça uma cópia.",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada transferirá a natureza pessoal e outra da informação para um país diferente daquele onde o serviço é fornecido? Em caso afirmativo, qual é o objetivo da transferência e qual mecanismo de transferência de dados será usado?",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "A parte contratada testar e monitorar regularmente os principais controles administrativos, técnicos e físicos, sistemas e procedimentos para garantir confidencialidade, disponibilidade e integridade em seu ambiente digital?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada adere a quaisquer padrões de segurança específicos da tecnologia ou auditorias de segurança? Especificar quais padrões? Forneça cópias de certificações e/ou relatórios de auditoria.",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada lida com dados pessoais sob a responsabilidade da parte contratante em nome da execução dos serviços contratados?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada permitirá que outros indivíduos e entidades acessem os dados pessoais da parte contratante (por exemplo, seus próprios provedores de serviços)? Se sim, detalhe os propósitos para os quais esse acesso será fornecido?",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "A parte contratada transmite dados pessoais da parte contratante para terceiros adicionais e como? A parte contratada garante que as salvaguardas de segurança da informação apropriadas estejam em vigor para esse fim?",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "A parte contratada tem acesso a categorias sensíveis de dados pessoais (como religião, casta, etnia, comportamentos etc.) e quais são esses elementos?",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "A parte contratada mantém uma lista de atributos de dados pessoais que ela armazena para a parte contratante?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada mantém registros com os registros de acesso e outras atividades de processamento em relação aos dados pessoais da parte contratante?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui políticas e controles em vigor para (1) limitar o acesso remoto a seus sistemas que contêm informações contratantes da parte, (2) protege os recursos tecnológicos utilizados, incluindo pontos de extremidade, rede e outras infraestruturas em nuvem e no local (3) mantêm os registros de atividades de rede para monitorar a rede para obter acesso não autorizado a informações contra a parte contratada?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui uma política e controles em vigor sobre o uso aceitável de recursos digitais? Se sim, forneça uma cópia.",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Onde os dados da parte contratante são armazenados pela parte contratada (em suas próprias instalações, na nuvem pública, na infraestrutura de partes contratadas?) Que tipo de tecnologia é usada?",
+    "resposta": "Sim, fornecedor de nuvem (AWS)"
+  },
+  {
+    "pergunta": "A parte contratada possui políticas/procedimentos de backup e controles implementados, incluindo testes de restauração, com relação aos dados da parte contratante? Forneça uma cópia para revisão.)",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada armazena e descarta qualquer informação impressa? Se sim, especifique o local e os meios para descartar.",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "A parte contratada possui uma política de criptografia e aplica criptografia nos dados da parte contratante? (Forneça uma cópia para revisão.)",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada implanta firewalls de rede e aplicativo, bem como plataformas IPS para proteger seus sistemas que podem conter informações contratantes da parte?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Os terceiros inventorizam todos os computadores, laptops, unidades de flash e outros dispositivos de armazenamento móvel que podem ser usados ​​para acessar ou armazenar informações sobre contratação?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada tem uma política sobre gerenciamento de mudanças e controles de alterações em vigor para os sistemas de TI?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada exige o uso de IDs de usuários individuais, senhas fortes e autenticação de vários fatores para acessar os dados da parte contratante e outros recursos em seu ambiente digital?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui políticas e procedimentos automáticos para bloquear as telas em pontos de extremidade não utilizados e dispositivos móveis?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada usa antivírus e outras ferramentas para detectar e neutralizar malwares, explorações e outras formas de ferramentas de ataque cibernético em pontos de extremidade e servidores?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui políticas e controles para aplicar patches de segurança e atualizações de forma contínua e oportuna?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui políticas e controles para controlar o nível de vulnerabilidades em sua infraestrutura de TI e e nos pontos de extremidade?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui políticas e controles para controlar o nível de vulnerabilidades em suas aplicações?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada da DE realiza testes regulares de caneta em seu ambiente de infraestrutura e aplicativos de TI?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui um NTP para sincronização do relógio?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "A parte contratada possui uma prevenção de perda de dados (DLP)?",
+    "resposta": "Não"
+  },
+  {
+    "conteudo": "All content ROTINA CONSULTOR CREDENCIAL ROTINA GESTOR AGÊNCIALogos da Agência - CadastroGestor AgênciaFornecedor e Tarifário offlineConfigurando SLACategoria de HospedagemHotéis HomologadosConfigurando VoebizFEEBudgetCampos AdicionaisGestão de BilhetesRemovendo o bilhete do bancoFerramenta de ImportaçãoUtilizando o módulo ADMMódulo de Conciliação Faturado e CartãoConfigurando SSO (Single Sign-On)Configurando SSO SAML 2.0 no AzureFUNCIONALIDADES WEB X APPREGISTRO NUEVO CLIENTE - ESPAÑOLREGISTRO DE ACUERDOS, CREDENCIALES Y MÉTODO DE PAGO - ESPAÑOLWintour - Integração automática V4Seguro ViagemContatos para SuporteTemas de Cores novo layoutConfigurando Cores no Mobile Logos da Agência - Cadastro Gestor Agência Fornecedor e Tarifário offline Configurando SLA Categoria de Hospedagem Hotéis Homologados Configurando Voebiz Campos Adicionais Gestão de Bilhetes Removendo o bilhete do banco Ferramenta de Importação Utilizando o módulo ADM Módulo de Conciliação Faturado e Cartão Configurando SSO (Single Sign-On) Configurando SSO SAML 2.0 no Azure FUNCIONALIDADES WEB X APP REGISTRO NUEVO CLIENTE - ESPAÑOL REGISTRO DE ACUERDOS, CREDENCIALES Y MÉTODO DE PAGO - ESPAÑOL Wintour - Integração automática V4 Seguro Viagem Contatos para Suporte Temas de Cores novo layout Configurando Cores no Mobile Implantação Introdução Este manual aborda todos os processos da gestão de bilhetes",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
+  },
+  {
+    "conteudo": "11 - Gestão de Bilhetes 22 - Agência 33- Configurando Notificação3.1Controle de Versão 3.1Controle de Versão *PERMISSÃO:É necessário liberar a RoleACESSA_GESTAO_BILHETE Para acessar a tela “Gestão de Bilhetes” passe o mouse sobreRecursos> GESTÃO DE BILHETES Na  opção“Filtrar Bilhetes” permite aplicar os filtros abaixo: Selecione o bilhete e clique emPedir Reembolso:  Nesse momento será gerado a Solicitação de Reembolso e encaminhado para agência de viagens",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
+  },
+  {
+    "conteudo": "*OBSERVAÇÃO:A agência precisa ter oServiço de Reembolsocadastrado no tipo de produtosOutro",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
+  },
+  {
+    "conteudo": "*OBSERVAÇÃO:A solicitação é gerada com o tipo de produto “Outro” e integrada com o Benner Para a agência acessar as “Configurações do Cliente”, menuGerenciamento> Cliente> Cliente Corporativoe clique emListar",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
+  },
+  {
+    "conteudo": "Informar o Nome do cliente que deseja realizar a configuração, clique em listar,quando o cliente for exibido clique noícone engrenagem: Em seguida clique na abaNOTIFICAÇÕES: 9.06 Notificar o gestor por e-mail XX dias antes do vencimento do bilhete Preencher com a quantidades de dias de antecedência que o sistema deve notificar o vencimento do bilhete",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
+  },
+  {
+    "pergunta": "Quando o valor for igual 0 não enviar e-mail",
+    "resposta": "(Conteúdo extraído da página: https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes)"
+  },
+  {
+    "conteudo": "Controle de Versão Comentário Comentário Feb 23, 2024 Francielle Eringer Related content",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1930395681/Gest+o+de+Bilhetes"
+  },
+  {
+    "conteudo": "All content ROTINA CONSULTOR CREDENCIAL ROTINA GESTOR AGÊNCIALogos da Agência - CadastroGestor AgênciaFornecedor e Tarifário offlineConfigurando SLACategoria de HospedagemHotéis HomologadosConfigurando VoebizFEEBudgetCampos AdicionaisGestão de BilhetesRemovendo o bilhete do bancoFerramenta de ImportaçãoUtilizando o módulo ADMMódulo de Conciliação Faturado e CartãoConfigurando SSO (Single Sign-On)Configurando SSO SAML 2.0 no AzureFUNCIONALIDADES WEB X APPREGISTRO NUEVO CLIENTE - ESPAÑOLREGISTRO DE ACUERDOS, CREDENCIALES Y MÉTODO DE PAGO - ESPAÑOLWintour - Integração automática V4Seguro ViagemContatos para SuporteTemas de Cores novo layoutConfigurando Cores no Mobile Logos da Agência - Cadastro Gestor Agência Fornecedor e Tarifário offline Configurando SLA Categoria de Hospedagem Hotéis Homologados Configurando Voebiz Campos Adicionais Gestão de Bilhetes Removendo o bilhete do banco Ferramenta de Importação Utilizando o módulo ADM Módulo de Conciliação Faturado e Cartão Configurando SSO (Single Sign-On) Configurando SSO SAML 2.0 no Azure FUNCIONALIDADES WEB X APP REGISTRO NUEVO CLIENTE - ESPAÑOL REGISTRO DE ACUERDOS, CREDENCIALES Y MÉTODO DE PAGO - ESPAÑOL Wintour - Integração automática V4 Seguro Viagem Contatos para Suporte Temas de Cores novo layout Configurando Cores no Mobile Implantação Suporte Lemontech (Unlicensed) Introdução Este manual é destinado ao perfil Gestor Agência e Cliente , afim de auxilia-lo na importação de arquivos, através da Ferramenta de Importação",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "11 - Download da ferramenta de importação 22 - Acessando o Importador 33 - Realizando o preenchimento da Documentação 44 - Realizando a importação 55- Validando protocolo de importação 66- Realizando Conversão de Planilhas 77- Download de Layout de Documentação É necessário ter oJAVAatualizado e instalado no seu computador",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "1 - Download da ferramenta de importação Através do menuRecursos>Ferramenta de Importação 2 - Acessando o Importador Informe o nome da Empresa, usuário e senha do Selfbooking",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "Após efetuar o login, você terá acesso à ferramenta, no qual será possível executar os processos deIMPORTAÇÃO, CONVERSÃOe download deDOCUMENTAÇÃO 3 - Realizando o preenchimento da Documentação Em caso de dúvida quanto ao conteúdo a ser inserido, basta passar o mouse sobre o nome correspondente para visualizar as informações",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "Títulos emVermelhodefine informações obrigatória e emAmarelosão campos adicionais que podem ou não ser preenchidos, porém existem Regras que devem ser seguidas",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "Após concluir o preenchimento, salve o arquivo no formatoCSV(separado por vírgulas) 4 - Realizando a importação Na tela de Importação temos as seguintes informações: ID DO CLIENTE ID DO CLIENTE Informe o nome da empresa Id do cliente",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "Layout de acordo com a documentação que você pretende importar Utilize sempre a ultima versão Clique emProcurarpara localizar o arquivo, e logo em seguida emValidar Arquivopara efetuar a validação do layout e das colunas da documentação, e para concluir a importação, clique emEnviar Arquivo",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "Ao realizar a importação, será gerado o número doProtocolo",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "5- Validando protocolo de importação Ao concluir o processo de importação, sistema envia por e-mail e exibe na tela o número do protocolo, com o número podemos verificar se a importação foi realizada com sucesso, quando apresenta erro podemos localizar o log desse processo",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "Preencha o campoPROTOCOLO Nºe clica emBUSCAR",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "Outra opção eSEM PROTOCOLO, podemos também realizar a busca por parâmetros: Outra opção eSEM PROTOCOLO, podemos também realizar a busca por parâmetros: SelecionamosCLIENTEeLAYOUT.- Definimos o período emDATA DA IMPORTAÇÃO DEeATÉe qual informação desejamos buscar em SOMENTE COM ERROS? (SIM) (NÃO) ou (AMBOS) e clicamos emBUSCAR",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "No resultado da busca você pode verificar na colunaERRO?se ocorreu erros durante a importação, clique sobre a linha que apresenta erro e logo apósVISUALIZAR O LOGpara ver as informações caso tenha erro",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "6- Realizando Conversão de Planilhas Utilizamos a conversão para planilhas que não estão no layout disponibilizado pela ferramenta EmCAMPOS PARA CONVERSÃOo layout padrão ficará disponível para que você informe onde o sistema irá buscar na sua planilha os dados que serão importados",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "O sistema busca as informações em colunas, e ele reconhece a coluna por números, ou seja, se você tema a informação “Fornecedor” na coluna “A” de sua planilha, para o sistema essa coluna é “1” e assim sucessivamente “B” igual “2”",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "7- Download de Layout de Documentação EmDOCUMENTAÇÃOpodemos localizar todos os layouts para importação de arquivos",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "Primeiramente selecione qual arquivo deseja importar, depois siga os passos abaixo: 1 - Selecione emVERSÃOsempre a ultima opção (a versão atual)",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "2 - Clique emSALVAR XLS, para salvar a o layout",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "Comentário Comentário Feb 15, 2024 Francielle Eringer Related content",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEA/pages/1920434182/Ferramenta+de+Importa+o"
+  },
+  {
+    "conteudo": "All content ACESSO AO SISTEMAAcessando SelfBookingRecurso MFA - Autenticação por Token via E-mail Acessando SelfBooking Recurso MFA - Autenticação por Token via E-mail ROTINA DO USUÁRIO APRESENTAÇÃO MÓDULO EXPENSE APP LEMONTECH ROTINA GESTOR CLIENTE Implantação Introdução Para realizar o acesso ao SistemaSELFBOOKING LEMONTECH, acesse o seguinte endereçohttp://selfbooking.lemontech.com.br É importante ressaltar que, para oprimeiro acessoao sistema, é imprescindível que um usuário seja previamente cadastrado pela equipe responsável pela gestão de viagens em sua organização",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Caso ainda não tenha recebido as instruções de acesso, pedimos gentilmente que entre em contato com o seu gestor responsável",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Ele poderá fornecer as orientações necessárias para garantir seu acesso ao sistema Primeiro acesso Primeiro acesso Redefinir senha Redefinir senha Usuário bloqueado Usuário bloqueado 1 - Primeiro acesso No momento do primeiro acesso, será necessário cadastrar uma senha",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Siga os passos abaixo para concluir o procedimento: Clique emPRIMEIRO ACESSO: No processo de registro no SelfBooking, será solicitado o preenchimento dos seguintes campos: Cliente:Informe o nome da sua empresa",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Cliente:Informe o nome da sua empresa",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Usuário:Insira seu nome de usuário",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Código de verificação:Este código será apresentado na tela; preencha-o no campo correspondente",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Após preencher os campos mencionados, clique em \"ENVIAR\"",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Posteriormente, o sistema enviará instruções detalhadas para o cadastramento dasenha por e-mail",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Se o primeiro acesso falhar por qualquer motivo, recomendamos realizar o reset da senha seguindo as instruções abaixo 2 - Redefinir Senha Em caso de esquecimento da senha ou desejo de redefinição, siga os passos abaixo Clique na opção 'Esqueci minha senha' na página de login",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "O sistema SelfBooking solicitará o preenchimento dos seguintes campos: Cliente:Informe o nome da sua empresa",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Preencha os campos necessários e clique em 'ENVIAR'",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Após completar este procedimento, o sistema enviará por e-mail as instruções detalhadas para o cadastramento da nova senha",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "3 - Usuário Bloqueado Se ao tentar acessar a ferramenta você receber a seguinte mensagem de bloqueio: “Cliente bloqueadoPrezados usuários, Sistema bloqueado, favor entrar em contato com a gestão de viagens.” Siga estes passos para resolver o problema: Na página de login, clique na opção 'Esqueci minha senha'",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Na página de login, clique na opção 'Esqueci minha senha'",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Preencha os campos solicitados e clique em 'ENVIAR'",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Ao redefinir a senha de acesso, o usuário serádesbloqueadoautomaticamente",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Após completar este procedimento, o sistema enviará por e-mail instruções detalhadas para o cadastramento da nova senha",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Essa ação permitirá que você recupere o acesso à ferramenta sem problemas adicionais",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "Controle de Versão Comentário Comentário Aug 17, 2022 Luciane Pedroso Related content",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/1855324171/Acessando+SelfBooking"
+  },
+  {
+    "conteudo": "All content ACESSO AO SISTEMA ROTINA DO USUÁRIOSolicitando Aéreo OnlineSolicitando Aéreo OfflineRevalidar e ReservarUtilizando Banco de BilhetesSolicitando ReemissãoRemarcação OnlineSolicitando SeguroSolicitando RodoviárioSolicitando CarroEscolher Orçamento / Pré-AprovaçãoAprovação de ProdutosNotificação Passaporte e VistoTarifa Média: Apresentação do Custo Médio do Aéreo para Nacional e InternacionalGestão de Bilhetes Solicitando Aéreo Online Solicitando Aéreo Offline Revalidar e Reservar Utilizando Banco de Bilhetes Solicitando Reemissão Remarcação Online Solicitando Seguro Solicitando Rodoviário Solicitando Carro Escolher Orçamento / Pré-Aprovação Aprovação de Produtos Notificação Passaporte e Visto Tarifa Média: Apresentação do Custo Médio do Aéreo para Nacional e Internacional Gestão de Bilhetes APRESENTAÇÃO MÓDULO EXPENSE APP LEMONTECH ROTINA GESTOR CLIENTE Implantação Para Criar uma Solicitação de Aéreo em nosso sistema, basta seguir o passo a passo abaixo: Passo 1: Acesse a Tela de Nova Solicitação Na tela de criação de uma nova solicitação, o produtoAéreojá estará selecionado por padrão",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Passo 2: Preencha os Dados Necessários Informe os seguintes detalhes para criar sua solicitação: 1 - Tipo de Solicitação -Escolha uma das opções disponíveis: Ida e Volta(selecionada por padrão) Ida e Volta(selecionada por padrão) Apenas Ida Apenas Ida Vários Destinos(Multi Trechos) Vários Destinos(Multi Trechos) 2 - Dados do Voo: Origem: Aeroporto ou cidade de partida Origem: Aeroporto ou cidade de partida Destino:Aeroporto ou cidade de chegada Destino:Aeroporto ou cidade de chegada Data de Ida:Data do voo de partida Data de Ida:Data do voo de partida Data de Volta:Data do voo de retorno (caso aplicável) Data de Volta:Data do voo de retorno (caso aplicável) 3 - Período do Voo: Selecione o horário desejado utilizando a régua de horário disponível",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Selecione o horário desejado utilizando a régua de horário disponível",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Caso prefira visualizar opções para o dia todo, mantenha a configuração padrão",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "4 - Tipo de Tarifa: Tarifa Combinada Tarifa Combinada Tarifa Não Combinada Tarifa Não Combinada Passo 3: Realize a Busca Após preencher todas as informações necessárias, clique no botãoPESQUISAR",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "O sistema exibirá as opções de voos disponíveis de acordo com os critérios informados Após realizar uma pesquisa, a tela apresenta os voos encontrados com base nos critérios informados",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Caso a consulta seja para ida e volta, os resultados exibidos inicialmente serão para o trecho de IDA: Por padrão as opções apresentadas são ordenadas por Preço",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "No entanto, é possível alterar a ordenação para critérios como:Duração; Hora Partida; Hora Chegada; CIA Na lateral esquerda da tela, você encontrará filtros que permitem aprimorar os resultados: Preço: Ajuste o intervalo de valores para visualizar opções dentro de um orçamento específico; Preço: Ajuste o intervalo de valores para visualizar opções dentro de um orçamento específico; Serviços: Escolha entre voos com bagagem incluída ou sem bagagem; Serviços: Escolha entre voos com bagagem incluída ou sem bagagem; Horário: Utilize a régua de horários para delimitar os períodos de voo, com início às 00h e término às 23h59; Horário: Utilize a régua de horários para delimitar os períodos de voo, com início às 00h e término às 23h59; Período: Filtre os voos por manhã, tarde, noite ou madrugada; Período: Filtre os voos por manhã, tarde, noite ou madrugada; Paradas: Selecione entre voos diretos, com uma parada ou com duas ou mais paradas; Paradas: Selecione entre voos diretos, com uma parada ou com duas ou mais paradas; Duração: Ajuste a régua para restringir os resultados de acordo com o tempo total do voo; Duração: Ajuste a régua para restringir os resultados de acordo com o tempo total do voo; Aeroportos: Caso a origem ou destino tenham mais de um aeroporto, é possível selecionar o aeroporto desejado; Aeroportos: Caso a origem ou destino tenham mais de um aeroporto, é possível selecionar o aeroporto desejado; Companhias aéreas: Visualize e escolha entre as companhias que operam no trecho informado e possuem credenciais cadastradas no sistema; Companhias aéreas: Visualize e escolha entre as companhias que operam no trecho informado e possuem credenciais cadastradas no sistema; A opçãoBanco de Bilhetes, localizada acima dos filtros, tem a finalidade exclusiva de consulta",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Ao clicar emVerificar, o sistema exibirá informações sobre eventuais bilhetes com créditos disponíveis, indicando a companhia responsável e o valor correspondente",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Além dos filtros, há a seção de orçamento, também localizada na lateral esquerda",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Nessa área, é possível selecionar as opções desejadas e encaminhar um orçamento de diferentes formas, comoEnvio por E-mail, Download em PDF ou Download em TXT: Para continuar o processo da reserva clique emVER TARIFAS Após clicar emVer Tarifas, serão exibidas as famílias tarifárias disponíveis para o voo selecionado, juntamente com os serviços incluídos em cada uma e a opção de consulta às regras aplicáveis",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Logo abaixo, o itinerário do voo será apresentado, contendo informações comonúmero do voo, classe, modelo da aeronave e companhia aérea responsável pela operação",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Para prosseguir com a reserva, clique emSELECIONARna família tarifária desejada: Após selecionar a tarifa do voo deida, o voo escolhido será exibido no campoVoos Selecionados, localizado na lateral esquerda da tela",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Em seguida, o sistema carregará automaticamente as opções disponíveis para o voo devolta",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "A seleção do voo de volta segue o mesmo procedimento adotado para a ida: bastaescolher a tarifa desejada.Após a escolha da tarifa de volta, o voo será adicionado ao campoVoos Selecionados",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Na parte inferior da tela, serão exibidos os valores detalhados e o total a ser pago pelos voos selecionados",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Caso deseje alterar alguma das opções escolhidas, basta clicar noícone de edição (lixeira)e selecionar uma nova opção para o trecho correspondente",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Para prosseguir com a reserva, clique emADICIONAR À VIAGEM",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Caso o cadastro não contenha todas as informações necessárias para a reserva, atela de dados para reservaserá exibida",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Nessa etapa, será necessário preencher os campos obrigatórios antes de prosseguir",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Se essa tela for apresentada durante o processo de reserva, basta inserir as informações solicitadas e clicar emSALVARpara continuar",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Após salvar os dados, umanotificação de confirmação de atualizaçãoserá exibida",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Basta fechar essa janela e, em seguida, a tela deconfirmação de escolhaserá apresentada",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Para concluir a reserva, clique emRESERVAR Após concluir a reserva, o sistema irá redirecioná-lo para a tela deProdutos Reservados, onde será exibida a reserva realizada",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Caso tenha selecionado ida e volta pela mesma companhia aérea e as classes tarifárias sejam compatíveis, umalerta de economiaserá exibido, informando o valor do desconto aplicado",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Esse alerta é apenas informativo",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Caso apareça, basta fechá-lo clicando no ícone\"X\"",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Para adicionar outros produtos a mesma reserva, clique na opção correspondente ao produto que deseja incluir: Na tela deProdutos Reservados, todas as informações dos voos selecionados serão exibidas para que você possa realizar a última validação antes de concluir a reserva",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Os dados apresentados incluem: Origem: Cidade e aeroporto de partida",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Origem: Cidade e aeroporto de partida",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Destino: Cidade e aeroporto de chegada",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Companhia/Tarifa: Companhia aérea e família tarifária reservada",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Partida: Data e horário do voo de ida",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Chegada: Data e horário do voo de chegada",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Marcar Assento: Caso a companhia aérea permita a marcação gratuita de assentos, essa opção será habilitada",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Reserva: Código localizador da reserva",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Vencimento: Prazo para confirmação da reserva (aprovação e conclusão no sistema)",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Saving Lost: Permite verificar se foi escolhida a menor tarifa disponível no momento da reserva",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Sinalizar Reemissão: Se a reserva for umareemissão, clique nesta opção",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Para mais detalhes, consulte nosso manual:Solicitando Reemissão Sinalizar Reemissão: Se a reserva for umareemissão, clique nesta opção",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Para mais detalhes, consulte nosso manual:Solicitando Reemissão Excluir: Caso não deseje prosseguir com a reserva, é possível excluí-la",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Excluir: Caso não deseje prosseguir com a reserva, é possível excluí-la",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Para concluir a SV clique emPROSSEGUIR",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Ao prosseguir, você será direcionado para a tela de conclusão da SV",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Nessa etapa, caso a política da sua empresa permita, será possível alterar o centro de custo",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Além disso, é obrigatório informar o motivo da viagem",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Após revisar e confirmar os dados, clique emCONCLUIR",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "O número da SV será gerado, contendo todas as informações da solicitação",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  },
+  {
+    "conteudo": "Controle de Versão Comentário Comentário Mar 31, 2025 Aline Morais Versão Inicial Related content",
+    "fonte": "https://lemontechinfo.atlassian.net/wiki/spaces/NEC/pages/2376663042/Solicitando+A+reo+Online"
+  }
+]
