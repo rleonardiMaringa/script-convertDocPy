@@ -1,5 +1,757 @@
 [
   {
+    "conteudo": "O processo de implantação abrange as etapas e ações essenciais para assegurar que um cliente inicie o uso de um produto ou serviço de forma eficiente e bem-sucedida. Isso inclui desde a preparação inicial até o acompanhamento pós-implantação, garantindo alinhamento com as necessidades do cliente.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "O objetivo do processo de implantação é garantir uma transição estruturada e eficiente para o cliente, assegurando que o produto ou serviço atenda plenamente às suas necessidades. Isso envolve planejamento, parametrização, treinamentos e suporte contínuo, visando maximizar a usabilidade, otimizar processos e proporcionar uma experiência satisfatória desde o início da operação.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "O processo de implantação de uma nova conta começa com a ficha cadastral (condições do cliente), que é de responsabilidade do Gerente de Vendas, e deve estar completa para garantir um cadastro correto. A manutenção durante o processo de implantação é de responsabilidade do Gerente de Relacionamento. A proposta comercial, acompanhada das condições do cliente, é recebida junto com o comunicado de conquista da conta, assegurando que todas as informações estejam alinhadas. O contrato deve ser assinado antes do Go Live, com o acompanhamento do Comercial para evitar atrasos. Além disso, a condição do cliente precisa estar sempre atualizada no momento do envio do comunicado de conquista. A comunicação entre o Comercial e o time de implantação é essencial para informar sobre a nova conta e dar início ao processo. Por fim, é realizado um kick-off interno com os principais envolvidos, incluindo Gerente de Vendas, Gerente de Relacionamento, Operações e Implantação, para alinhar expectativas e compreender as particularidades do cliente, garantindo uma transição eficiente.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Comunicação – Envio do comunicado pelo Comercial ao time de implantação sobre a conquista da conta e o início da implantação, contendo os documentos abaixo.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Validação Jurídica e Tesouraria – As áreas devem enviar um e-mail após análise da situação jurídica e saúde financeira.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Condição do Cliente (Ficha Cadastral) – O Gerente de Vendas é responsável pelo preenchimento da condição do cliente, garantindo que ela esteja completa. Gerenciamento e manutenção durante e após implantação, é de responsabilidade do gerente de relacionamento.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Proposta Comercial – A proposta comercial é acompanhada da condição do cliente e recebida junto com o comunicado de conquista da conta.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Contrato – O Comercial acompanha a assinatura do contrato para que ele seja assinado até o Go Live. Não será possível o go live sem contrato assinado.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Kick-off interno – É realizada uma primeira reunião interna com o Gerente de Vendas, Gerente de Relacionamento, Operações e Implantação para entender as particularidades da conta e alinhar as expectativas do cliente.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "O processo de implantação segue um cronograma estruturado de reuniões recorrentes para garantir a configuração correta das ferramentas utilizadas e o alinhamento entre as equipes e cliente.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "As ordens das reuniões podem sofrer alteração de acordo com a necessidade do cliente, previamente alinhada entre os envolvidos.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "CALL SEMANA 1 (Kickoff Cliente) - Alinhar expectativas, assim como definir a data de Go Live com base nas informações passadas. GV, GR, Operações + Cliente.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "CALL SEMANA 2 (Planilha OBT) - Reunião com GV, GR, Operações + Cliente para apresentação da carga de dados e demonstrarmos como devemos receber as informações que alimentaremos no selfbooking.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "CALL SEMANA 3 (Financeiro - Turismo e FEE) - Reunião com GV, GR, Operações, Financeiro (Contas a Receber, Faturamento e FEE), mais cliente para alinhamento de Faturas e Fee.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "CALL SEMANA 4 (Operação - Corporativo, VIP e Plantão) - Reunião com GV, GR, Gerentes de Operações + Cliente para alinhamento do atendimento operacional corporativo e plantão (gerente de operações esclarece todas as dúvidas).",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "CALL SEMANA 5 (Homologação da plataforma) - Reunião com GV, GR + Cliente para apresentação da ferramenta de homologação.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "CALL SEMANA 6 (Ambiente de Produção) - Reunião com GV, GR + Cliente para apresentação da ferramenta de Produção/Selfbooking.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "CALL SEMANA 7 (SAC Qualidade - BI - Central de Eventos) - Reunião com GV, GR, SAC e Qualidade, Central de Eventos + Cliente para apresentação das áreas.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "CALL SEMANA 8 (Treinamento + Divulgação de Materiais) - S/N Reunião com GR + Cliente para treinamento do OBT e divulgação dos contatos de atendimento.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "CALL SEMANA 9 (Preparação Go-Live) - Última reunião realizada com GV, GR + Cliente para repassar todos os pontos antes do go-live.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "O Kick-off com o Cliente marca o início oficial da implantação, sendo uma etapa essencial para alinhar expectativas, esclarecer demandas e definir a data de Go Live com base nas informações fornecidas. Essa reunião envolve as equipes de Gerência de Vendas, Gerência de Relacionamento, Operações e o Cliente, garantindo que todos os envolvidos tenham uma visão clara do projeto. Para o sucesso dessa fase, é fundamental conduzir a reunião de forma organizada, identificando possíveis desafios, alinhando responsabilidades e estabelecendo um plano de ação bem estruturado. Esse alinhamento inicial é decisivo para evitar retrabalhos e garantir que a implantação ocorra dentro do prazo e com eficiência.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Kick-off Cliente - Na primeira reunião com o cliente buscamos entender e alinhar expectativas, assim como definir a data de Go Live com base nas informações passadas. GV, GR, Operações + Cliente.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "O processo de implantação envolve uma série de etapas e documentos importantes que o cliente deve fornecer para garantir a configuração correta da ferramenta e a transição sem problemas. O cliente deve comunicar a agência atual sobre o distrato e informar o tipo de licença OBT (se será pela Maringá ou direto com o OBT). A política de viagem e a política emergencial também devem ser enviadas, detalhando como os fluxos de atendimento no plantão e suporte serão feitos. Caso o acesso ao OBT seja via SSO, essa informação também é essencial. A integração de dados por Web Service precisa ser confirmada, assim como o envio da planilha de implantação com a carga de dados, motivos e justificativas preenchidos. O logo e identidade visual devem ser enviados conforme as especificações para personalização da ferramenta. Além disso, o cliente deve validar o modelo e os campos gerenciais obrigatórios. Relacionado aos fornecedores, é necessário comunicar aos fornecedores atuais de serviços aéreos, hotéis e locadoras sobre a alteração de agência, informando quais acordos estão em vigor. Caso o cliente utilize cartões como forma de pagamento, uma nova solicitação junto ao banco será necessária. Finalmente, o cliente deve informar como deve ser emitida a nota fiscal de hospedagem, para que o time de implantação configure corretamente essa parte no sistema.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Distrato - Agência Atual - Cliente deverá comunicar agência atual sobre o distrato",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Tipo de Licença OBT (Agência ou Direto) - Cliente informar se a licença é pela Maringá ou direto com o OBT",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Política de Viagem - Cliente enviar o documento política de viagens",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Política Emergencial - Cliente informar o fluxo de atendimento no plantão",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Política de Suporte - Cliente informar o fluxo de atendimento no suporte",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Acesso OBT via SSO - Cliente informar se o acesso ao OBT será via SSO",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Integração de dados - Web Service - Cliente informar se haverá integração de dados",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Planilha de Implantação / carga de dados / Motivos e Justificativas - Cliente enviar a planilha de carga de dados preenchida",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Identidade Visual (cores e logo) - Cliente enviar para implantação o logo nas dimensões solicitadas",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Validação do modelo e campos gerenciais - Cliente informar campos obrigatórios que deverão ser configurados na ferramenta",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Acordos Aéreos - Cartas para cias mais Comunicação - Cliente deverá comunicar os atuais fornecedores ao qual possui acordo que haverá alteração de agência. Deverá informar quais companhias aéreas possuem acordo",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Acordos Hotéis - Diretórios dos hotéis mais comunicação - Cliente deverá comunicar os atuais fornecedores ao qual possui acordo que haverá alteração de agência. Deverá informar quais hotéis possuem acordo",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Acordos Locadoras - Credencial + Comunicação - Cliente deverá comunicar os atuais fornecedores ao qual possui acordo que haverá alteração de agência. Deverá informar quais locadoras possuem acordo",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Solicitação de novos cartões - Caso a FOP do cliente seja cartão, o mesmo deverá solicitar junto ao banco uma nova emissão para que seja utilizado pela agência (VCN ou cartão corporativo)",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Instruções sobre Nota Fiscal da Hospedagem - Cliente deverá informar se a nota fiscal para serviços de hospedagem deverá ser emitida em nome do hóspede ou da empresa, após essa informação o time de implantação configura na ferramenta",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Planilha de implantação (carga de dados)",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "O processo de implantação começa com a validação, pela equipe de operações, do ponto de venda onde o cliente será atendido, e o envio das informações para contabilidade para cadastro do novo ponto de venda, caso necessário. Após o retorno com o centro de custo reduzido, é aberto um chamado no Suporte Back Office. Em seguida, operações define os perfis de atendimento e consultores, e a implantação seleciona o IATA e PCC adequados conforme o tipo de atendimento. O comercial informa o SLA e o horário de atendimento conforme o contrato. A implantação também é responsável por vincular a célula do NAI para clientes internacionais e validar o acesso ao OBT para o plantão emergencial. A política de viagens deve ser compartilhada com a operação, e os acordos com fornecedores de aéreo, hotéis e locadoras precisam ser formalizados. Se o cliente precisar de atendimento VIP, é agendada uma reunião com o time de atendimento VIP para definir o escopo de atendimento. Essas etapas garantem que o cliente tenha um atendimento alinhado às suas necessidades e expectativas.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Definição de atendimento - Após o comercial enviar o comunicado de nova conquista, implantação deverá validar com a diretoria de operações em qual ponto de venda e formato (PVI, NAC, BTC ou POS) que este cliente será atendido, de acordo com a condição do cliente",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Ponto de Venda/Centro de custo reduzido - Após a definição de operações em qual ponto de venda o cliente será atendido, implantação envia para contabilidade@maringaturismo.com.br para cadastro do novo PV (caso o cliente não seja atendido no BTC), com a informação do IATA, PCC e a nomenclatura do PDV (EX: MGA-SAO-OPE-NAC-NOME CLIENTE).",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Após recebermos o retorno da contabilidade com o centro de custo reduzido, implantação abre um chamado no Suporte Back Office para cadastro do PDV e o Centro de custo reduzido no Back Office e no OBT.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Pronta Referência Operacional – Implantação preenche o cabeçalho do formulário e em seguida envia para GO e Comercial para preenchimento das demais informações.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Perfil de Atendimento - Operações definirá o perfil de atendimento com base no PDV indicado",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Perfil dos consultores - Operações definirá o perfil dos consultores com base nas informações indicadas do cliente",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "IATA - Implantação seleciona o IATA que o cliente ficará alocado com base no tipo de atendimento (PVI, NAC, BTC, etc)",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "PCC - Implantação seleciona o PCC que o cliente ficará alocado com base no tipo de atendimento (PVI, NAC, BTC, etc)",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Caso o cliente necessite de um PCC dedicado, é solicitado ao time de Apoio Operacional.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "SLA de Atendimento - Comercial deverá informar qual o SLA do cliente previsto em contrato.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Horário de atendimento - Comercial deverá informar qual o horário de atendimento do cliente previsto em contrato.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "NAI (Núcleo de Atendimento Internacional) - Caso o cliente tenha demanda de internacional, implantação deverá vincular a célula do NAI no OBT do cliente.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Mais detalhes no documento Processo NAI. Disponível xxxx",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Plantão Emergencial - Implementação validar com time operacional se estão com acesso ao OBT e enviar a PR",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Compartilhar Política de Viagens - Implantação deve compartilhar com o time de operações a política de viagens",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "A operação deve validar os pontos críticos da política de viagens, que não esteja de acordo com o escopo de atendimento. A implantação extrai apenas o necessário para configuração do OBT.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Acordos Aéreos - Implantação enviar para o fornecedor o formulário preenchido com as credenciais do cliente, para carregamento do acordo. Copiar o GR + Cliente para acompanhamento.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Acordos Hotéis - Implantação enviar para o fornecedor o formulário preenchido com as credenciais do cliente, para carregamento do acordo. - Copiar o GR + Cliente para acompanhamento.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Acordos Locadoras - Implantação enviar para o fornecedor o formulário preenchido com as credenciais do cliente, para carregamento do acordo. - Copiar o GR + Cliente para acompanhamento.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Serviço Private - Caso o cliente precise de atendimento VIP, implantação deverá agendar uma reunião com o Premium para definição do escopo de atendimento. Cliente deverá enviar um formulário com todos os dados do viajante VIP.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Lazer - Caso o cliente utilize o Lazer, a implantação deverá agendar uma reunião com o comercial do departamento para definição do escopo de atendimento.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Central de Eventos - Caso o cliente utilize os serviços de Eventos, implantação deverá agendar uma reunião com o Comercial de eventos para definição do escopo de atendimento",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Cartas Acordos – aéreo, hotel e locação",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Formulário Credenciais Cias Aéreas",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "O processo de implantação inclui diversas etapas relacionadas ao financeiro e à gestão de pagamento. O financeiro e o comercial devem avaliar a condição do cliente, o tipo de Fee, e a forma de remuneração, além de informar os detalhes sobre os serviços adicionais, prazo e dias de pagamento. O comercial também precisa comunicar ao financeiro a quebra de fatura e quem será o responsável pelo recebimento das faturas.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Além disso, o financeiro, em conjunto com o comercial, envia os modelos de relatórios e faturas para validação final com o cliente e apresenta o modelo de faturamento, relatório e boleto. A implantação solicita ao Suporte Back Office o login e senha do portal de faturamento e encaminha para o Gerente de Relacionamento. Se necessário, é solicitado ao financeiro a liberação da forma de pagamento (FOP). O cliente deve informar qual será a forma de pagamento para todos os produtos e se haverá conciliação via parceiro. Essas etapas garantem o alinhamento entre as áreas e a correta definição dos processos financeiros.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Etapas da Condição do cliente / Turismo e Fee",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Preenchimento do Gerente de Vendas",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Atualização da versão final do documento",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "É de responsabilidade do Gerente de Vendas o preenchimento de todos os itens que compõe o faturamento e fee na Condição do Cliente. O Financeiro e Fee são responsáveis por validar a condição antes da reunião com o cliente. Após a reunião com cliente o gerente de vendas encaminha ao time de implantação a versão final do documento.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Modelo de Faturamento / Relatório / Emissão de Boleto - Financeiro apresentar modelo de fatura, relatório, boleto da agência",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Portal de Faturamento - Implantação solicita ao Suporte Back Office o login e senha do portal de faturamento e encaminha ao Gerente de Relacionamento",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Liberações da Forma de Pagamento - Se houver necessidade de faturamento, o Comercial (Relacionamento ou Vendas) solicita a liberação/autorização de FOP para o financeiro, com a estimativa de volume.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Conciliação via parceiro – Comercial valida se o cliente utilizará a conciliação via parceiro.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Caso o cliente solicite posto físico, o time de implantação envolve o TI. Para clientes NAC ou PVI, a implantação solicita ao helpdesk a criação de e-mail e telefone dedicado, vinculando-os aos consultores responsáveis. Se o cliente contratar a ferramenta de BI/Relatórios, o Gerente de Relacionamento (GR) será responsável pela apresentação e configuração junto ao time de BI. Além disso, o cliente deve informar os relatórios gerenciais necessários, incluindo quais campos são obrigatórios e a periodicidade dos relatórios, para que a implantação possa configurar de acordo com as necessidades do cliente. Essas etapas garantem que todos os recursos necessários sejam providenciados e alinhados conforme as especificações do cliente.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Infraestrutura (mobiliário cliente ou agência) - Se aplica quando é solicitado atendimento em posto físico",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Equipamentos - Se aplica quando é solicitado atendimento em posto físico",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Link Rede - Se aplica quando é solicitado atendimento em posto físico",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Criação de e-mail - Caso o cliente seja NAC/ PVI/POS, implantação abre chamado no helpdesk para solicitar um e-mail dedicado e vincular aos consultores que atenderão a conta.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Telefonia - Caso o cliente seja NAC ou PVI, implantação abre chamado no helpdesk para solicitar um telefone dedicado e vincular aos consultores que atenderão a conta",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Clientes BTC – O gerente de operações avalia a necessidade de ter telefone e e-mail dedicados.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Ferramenta de BI/Relatórios - Caso o cliente contrate o BI, o GR ficará responsável por realizar uma reunião de apresentação, assim como as tratativas junto ao time de BI para a respectiva configuração",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Relatórios gerenciais (Quais relatórios, periodicidade, responsáveis pelo recebimento) - Cliente deverá informar para Implantação e GR quais os campos obrigatórios ou enviar um modelo de relatório de acordo com sua necessidade.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "2.3. Backoffice Suporte (Cadastro)",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "O processo de cadastro do cliente começa com a abertura de um chamado para realizar o cadastro no Back Office, assim que a primeira versão da condição do cliente for recebida. Após o envio da última versão da condição, a implantação abre outro chamado para atualizar as informações antes do Go Live. Caso o cliente precise de um PCC dedicado, e possua acordos aéreo e terrestre, a implantação solicita ao Apoio Operacional. Para clientes com acordos de hotéis nacionais, a implantação solicita ao Suporte Back Office um Ponto de Venda (PDV) dedicado na B2B, ou, se necessário, preenche o formulário e envia para a Omnibees. Quando o conteúdo de plataformas como Bestbuy ou Trend for necessário, a implantação solicita as credenciais ao Apoio Operacional. A implantação também solicita credenciais para o CMNET e RAC em caso de acordo com hotéis nacionais ou internacionais, respectivamente. Quando o OBT de produção estiver pronto, a implantação comunica o time de Apoio Operacional para configurar o PNR Passivo e os acessos dos consultores aos portais e ferramentas de viagem. Essas etapas garantem que todos os sistemas e credenciais estejam devidamente configurados antes do Go Live.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Cadastrar Cliente / Condição do Cliente - Ao receber a primeira versão da condição do cliente, implantação deverá abrir um chamado via Movidesk para o Back Office realizar o cadastro do cliente. Quando o comercial encaminhar a última versão da condição, implantação abre um novo chamado para o Suporte Backoffice atualizar as informações do cliente antes do Go Live",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "PCC - Caso o cliente precise de um PCC dedicado, implantação deverá solicitar ao Apoio Operacional.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Credencial E-Latam - Caso o cliente tenha acordo com a Latam, implantação deverá solicitar ao Apoio Operacional as credenciais da Latam",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Credencial Gol - Caso o cliente tenha acordo com a Gol, implantação deverá solicitar ao Apoio Operacional as credenciais da Gol",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Credencial Azul - Caso o cliente tenha acordo com a Azul, implantação deverá solicitar ao Apoio Operacional as credenciais da Azul",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Ponto de Venda B2B - Caso o cliente tenha acordo com hotéis nacionais, implantação solicita via Movidesk ao Suporte Backoffice um PDV da B2B dedicado",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Ponto de Venda Omnibees - Caso o cliente tenha acordo com hotéis nacionais, implantação preenche um formulário da Omnibees solicita via e-mail (bee2bee@omnibees.com) para a Omnibees um PDV dedicado",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Bestbuy - Se necessário habilitar conteúdo, implantação deverá solicitar as credenciais para Apoio Operacional e informar a FOP",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Trend - Se necessário habilitar conteúdo Trend, implantação deverá solicitar as credenciais para Apoio Operacional",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Unidade CMNET - Caso o cliente tenha acordo de hotéis nacionais, implantação solicita ao time de Apoio Operacional uma credencial CMNET",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "HIC Table (RAC) - Caso o cliente tenha acordo de hotéis internacionais, implantação solicita ao time de Apoio Operacional uma RAC dedicada",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "PNR Passivo - Quando o OBT de produção estiver pronto, implantação deverá informar ao time de Apoio Operacional para que configurem o PNR Passivo no OBT",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Acessos Consultores (portais e ferramenta de viagem) - Quando o OBT de produção estiver pronto, implantação deverá informar ao time de Apoio Operacional para que configurem o acesso dos consultores.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Conector Integração - Quando o OBT de produção estiver pronto, implantação deverá informar ao time de Apoio Operacional para que configurem o Conector de Integração na ferramenta.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Profile - Quando a PR do cliente estiver pronta, implantação deverá informar ao time de Apoio Operacional para que configurem o Profile",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Trip Case - Quando o OBT de produção estiver pronto, implantação deverá informar ao time de Apoio Operacional para que configurem o Trip Case se necessário.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Relatório HX - Quando o OBT de produção estiver pronto, implantação deverá informar ao time de Apoio Operacional para que configurem o relatório HX se necessário.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Conexões/Assinaturas/Usuário WS - Quando o OBT de produção estiver pronto, implantação deverá informar ao time de Apoio Operacional para que configurem as conexões, assinaturas e usuários WS.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Ativação do NDC - Quando o OBT de produção estiver pronto, implantação deverá informar ao time de Apoio Operacional para que configurem o NDC no OBT",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "A implantação deve solicitar o cadastro do cliente no formulário SAC interno, informando nome, CNPJ, e, se aplicável, as regionais, e enviar para o time de processos. Também deve cadastrar o cliente na planilha de economia invisível, fornecendo o nome do cliente, ponto de venda e supervisor operacional. Além disso, a implantação precisa preencher o formulário para atendimento via Suporte a Produtos, garantindo que todas as particularidades do cliente sejam consideradas. Essas ações são essenciais para garantir que os dados do cliente sejam devidamente registrados e processados nos sistemas corretos.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Cadastrar Cliente no formulário SAC interno (Informar nome do cliente e CNPJ, informar de todas as regionais, se houver) - Implantação envia para o time de processos o cadastro do cliente nos formulários - Informar razão social, CNPJ, e PDV",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Cadastrar Cliente na Planilha de economia invisível (Informar nome do cliente, Ponto de Venda e supervisor operacional) - Implantação envia para o time de processos o cadastro do cliente nos formulários - Informar razão social, CNPJ, e PDV",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Pronta Referência - Suporte Produtos - Implantação deverá preencher formulário para atendimento via Suporte a Produtos conforme particularidades do cliente",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "https://app.smartsheet.com/sheets/99Q5MMv2Hm GC5jj3CRRGV8wrc Rff8X745J3j QXG1?view=grid",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "2.5. OBT E PRODUTOS - HOMOLOGAÇÃO",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "A implantação inicia a criação do ambiente de homologação após receber a carga de dados. São habilitados os módulos contratados e configuradas as políticas e regras da ferramenta. A importação de arquivos inclui regionais, dados gerenciais, funcionários, fluxo de aprovação e motivos/justificativas. Após a configuração, o cliente recebe acessos para testar a ferramenta e participa de uma demonstração com GR e GV. Quando aprovado, a implantação recebe o “De Acordo” do cliente e inicia a criação do ambiente de produção.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Criação do ambiente - Após implantação receber a carga de dados, é iniciado a criação do ambiente de homologação",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Módulos a serem habilitados (travel, expense, budget...) - Implantação habilitar os módulos contratados pelo cliente",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Configuração da Ferramenta / Políticas - Implantação configurar a ferramenta conforme a política do cliente",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Regionais - Implantação configurar regionais",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Dados gerenciais (centro de custo, projeto, etc) - Implantação configurar dados gerenciais (centro de custo, projeto, etc)",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Funcionários - Implantação subir carga de funcionários",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Fluxo de aprovação - Implantação configurar fluxo de aprovação",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Motivos e Justificativas - Implantação configurar motivos e justificativas",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Envio de Links/Acessos - Homologação - Após finalizar o ambiente de homologação, implantação envia o link com logins e senhas para que o cliente realize os testes na ferramenta",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Demonstração - Homologação - Implantação realiza uma reunião com GR + GV + Cliente para demonstração da ferramenta",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Validação em Homologação - Cliente formaliza o \"De Acordo\" para implantação iniciar a criação do ambiente de produção",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Planilha de Implantação (Carga de dados)",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "A implantação inicia a criação do ambiente de produção após o cliente formalizar o \"De Acordo\" da homologação. As configurações são importadas do ambiente de homologação, e os dados gerenciais, regionais, funcionários, fluxo de aprovação e motivos/justificativas são ajustados. São cadastrados VIPs no OBT, configurado o extrator de relatórios, e criado ponto de venda e vínculos necessários. O PDV é registrado na planilha do Smartsheet, e o cliente é vinculado às células de atendimento (Corporativo, Private ou NAI). Por fim, os hotéis preferenciais e acordos são homologados.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Criação do ambiente (nome ambiente sempre em letra maiúscula) - Após implantação receber o \"De Acordo\" referente ao ambiente de homologação, é iniciado a criação do ambiente de produção",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Importar Configuração - Implantação importar configuração do ambiente de homologação para o ambiente de produção",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Regionais - Implantação configurar regionais",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Dados gerenciais (centro de custo, projeto, etc) - Implantação configurar dados gerenciais (centro de custo, projeto, etc)",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Funcionários - Implantação subir carga de funcionários",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Fluxo de aprovação - Implantação configurar fluxo de aprovação",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Motivos e Justificativas - Implantação configurar motivos e justificativas",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Cadastro dos VIPs no OBT - Implantação c adastrar e configurar os VIP's no ambiente",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Extrator, perfil Gestor, vinculo de usuários, roles de atribuição - Implantação configurar o extrator de relatório no perfil de Gestor, realizar os vínculos e etc no ambiente de produção",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Gestão de Bilhetes (MRI) – Validar com o Gerente de Relacionamento quais usuários terão acesso ao módulo para pedidos de reembolso no Lemontech. Verifique os documentos de configuração e apresentação do MRI, anexo na linha da atividade do cronograma no Smart Sheet.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Liberar role: GESTÃO_BILHETES no perfil de solicitante ou aprovador. Não está disponível para o perfil de gestor.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Criação do ponto de Venda - Implantação criar o PDV e vincular ao cliente",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Inserir nome/ponto de venda nessa planilha - Implantação preencher o PDV no formulário https://app.smartsheet.com/sheets/Qr3G6cp658j GR9cqrpf Q6MWX2mm Cq QM44X67q G81?view=grid",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Relacionar consultor a célula de atendimento",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Corporativo - Implantação relacionar a célula de atendimento corporativa ao cliente em produção",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Private - Implantação relacionar a célula Premium ao cliente em produção",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "NAI - S/N Implantação relacionar a célula NAI ao cliente em produção",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Homologação de Hotéis - Implantação realizar a configuração dos hotéis preferenciais e com acordos",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Planilha de Implantação (Carga de dados)",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "A implantação agenda reuniões para apresentação das áreas conforme necessidade.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "SAC e Qualidade - Conforme report semanal, implantação deverá agendar uma reunião com a área de SAC e Qualidade + GV + GR + Cliente",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Lazer - Caso o cliente utilize o LAZER, implantação deverá agendar uma reunião com a área de Lazer + GV + GR + Operações + Cliente",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Autorização do gestor e validação da cia aérea para utilização dos acordos - Caso o cliente utilize o LAZER, implantação deverá colher o de acordo do gestor de viagens referente a utilização dos acordos",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "BI - Relatórios - Caso seja do interesse do cliente, o Gerente de Relacionamento deverá agendar uma reunião para apresentação do BI.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Central de Eventos - Caso o cliente utilize a central de eventos, implantação deverá agendar uma reunião com a área de Lazer + GV + GR + Operações + Cliente",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "A implantação realiza testes de integração no ambiente do cliente para validar se os campos integrados estão corretos. Após a conclusão, verifica se os dados foram integrados corretamente no Back Office. Solicitar o cancelamento para operações, anexando as evidências do fornecedor e do Back Office.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Evidências/E-mail da Conclusão (fornecedor/Benner/RLOC/OBT) - Implantação realiza o teste de integração no ambiente do cliente para validar se os campos integrados estão de acordo. Após a conclusão do teste, implantação verifica com suporte Back Office se os campos integraram corretamente no Benner",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Evidências/E-mail da Cancelamento (fornecedor/Benner/RLOC/OBT) - Após a validação dos campos pela área de Back Office, implantação solicita o cancelamento para operações com as evidências do cancelamento no fornecedor e no Benner",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Se necessário, a implantação aciona a Universidade Maringá para treinamento dos consultores. O Gerente de Relacionamento agenda o treinamento para gestores, solicitantes e aprovadores do cliente antes do Go Live.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Treinamento Agência - Se necessário, implantação aciona a Universidade Maringá para treinamento dos consultores.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Treinamento Cliente - Gerente de Relacionamento deverá agendar o treinamento (Gestor, solicitante, Aprovador) com o cliente antes do Go Live",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "A implantação configura e envia o material de apoio, incluindo a carta de boas-vindas e informações sobre os canais de atendimento do cliente.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Material de apoio cliente - Implantação configura e envia o material de apoio para o cliente",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Carta de Boas Vindas + Canais Cliente - Implantação configura e envia as lâminas de boas-vindas e dos canais de atendimento do cliente",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Mailing Marketing – Gerente de Relacionamento fica responsável por apresentar o objetivo do mailing marketing. Tendo o “de acordo” do cliente, a Implantação é responsável por enviar os contatos para o Marketing.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Se necessário, a implantação elabora um mapa de risco destacando possíveis impactos do Go Live para o cliente e a agência. No dia do Go Live, logo no primeiro horário, é enviado um comunicado oficial informando a ativação da nova conta, incluindo a pronta referência operacional.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Mapa de Risco - Implantação envia um mapa de risco com as considerações do porque o Go Live apresenta um risco para o cliente e agência. Havendo risco, a diretoria competente e/ou vice-presidência deve aprovar o Go-live.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Comunicado Go Live - No dia do Go Live no primeiro horário, implantação envia um e-mail comunicando a entrada da nova conta para (gp_geral@maringaturismo.com.br) junto com a pronta referência operacional",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "No primeiro dia de atendimento, a implantação acompanha o processo junto com o Gerente de Relacionamento e a equipe de Operações. O SAC envia a pesquisa de satisfação (NPS) para avaliar a experiência dos envolvidos. Durante os primeiros 30 dias, a implantação monitora e realiza ajustes no OBT e atende eventuais demandas do cliente.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Primeiro dia de Atendimento - Implantação acompanha o primeiro dia de atendimento junto com o GR e Operações",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Pesquisa de Satisfação (NPS) – SAC envia a pesquisa para os envolvidos no projeto de implantação, após 7 dias do go-live.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Monitoramento 30 dias (Ajustes OBT) - Implantação é responsável por acompanhar e ajustar qualquer solicitação do cliente, relacionada a ferramenta, durante os 30 dias de monitoramento.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Cadastros pontuais como, usuário, centro de custo, motivo, aprovações, etc, devem seguir via Suporte Produtos.",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Folha inteligente do Cronograma",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Os arquivos citados aqui se encontram nos caminhos abaixo:",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Smartsheet: C.Projetos Implantação > Projetos – Em Andamento (Cronograma):",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "https://app.smartsheet.com/workspaces/2H64Fx9F4p8fv QMHf Q2q6m V58m3Cxq4gjh Cq97W1",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "Smart Sheet: C.Status Implantação > Dashboard Implantação:",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
+    "conteudo": "https://app.smartsheet.com/sheets/8cj w6gfwv3gcv q2frp xc44hp9wm4pgc wg7mgv421",
+    "fonte": "Fluxo Implantação.docx"
+  },
+  {
     "conteudo": "Ferramenta focada em viagens corporativas para reservar produtos, despesas e políticas de viagem a mecedores",
     "fonte": "questionariolgpd.xlsx"
   },
@@ -136,7 +888,7 @@
     "fonte": "questionariolgpd.xlsx"
   },
   {
-    "conteudo": "O fornecedor minimiza os serviços de portas em seus ACLs de firewall de implementação, NACLs ou grupos de segurança de rede (NSG), WAF - A implementação de WAF (controles de firewall de aplicativos da web) é usada pelos fornecedores de SAA?",
+    "conteudo": "O fornecedor minimiza os serviços de portas em seus ACLs de firewall de implementação, NACLs ou grupos de segurança de rede (NSG), WAF - A implementação de WAF (controles de firewall de aplicativos da web) é usada pelos fornecedores da SAA?",
     "fonte": "questionariolgpd.xlsx"
   },
   {
